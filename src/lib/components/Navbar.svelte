@@ -15,7 +15,7 @@
 			if ((showLeft = !showLeft)) showRight = false;
 		}}>Songs</button
 	>
-	<a href="/">
+	<a href={import.meta.env.VITE_PUBLIC_BASE_URL}>
 		<h1>OpenSong</h1>
 	</a>
 	<button
