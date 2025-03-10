@@ -1,6 +1,3 @@
-import * as mupdfjs from 'mupdf/mupdfjs';
-
-export type Color = mupdfjs.Color;
 export type Rect = [ number, number, number, number ];
 
 // <index> <isFlat>

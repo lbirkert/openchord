@@ -7,10 +7,8 @@
         "@fortawesome/free-brands-svg-icons": "^6.7.2",
         "@fortawesome/free-solid-svg-icons": "^6.7.2",
         "@rodrigodagostino/svelte-sortable-list": "^0.10.16",
-        "@types/object-hash": "^3.0.6",
         "deepcopy": "^2.1.0",
         "idb": "^8.0.2",
-        "mupdf": "^1.3.1",
         "object-hash": "^3.0.0",
         "pdf-lib": "^1.17.1",
         "pdfjs-dist": "^4.10.38",
@@ -25,6 +23,7 @@
         "@sveltejs/adapter-static": "^3.0.8",
         "@sveltejs/kit": "^2.16.0",
         "@sveltejs/vite-plugin-svelte": "^5.0.0",
+        "@types/object-hash": "^3.0.6",
         "eslint": "^9.18.0",
         "eslint-config-prettier": "^10.0.1",
         "eslint-plugin-svelte": "^3.0.0",
@@ -425,8 +424,6 @@
     "mrmime": ["mrmime@2.0.1", "", {}, "sha512-Y3wQdFg2Va6etvQ5I82yUhGdsKrcYox6p7FfL1LbK2J4V01F9TGlepTIhnK24t7koZibmg82KGglhA1XK5IsLQ=="],
 
     "ms": ["ms@2.1.3", "", {}, "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="],
-
-    "mupdf": ["mupdf@1.3.1", "", {}, "sha512-Z96fGMOyBFV4oP8rD1FzcYoj1+/B1FBO2LV4A94KFGsE/w1EfqaIttaQc61DgVCYatvYugimYu4o39KqvQ4XNA=="],
 
     "nanoid": ["nanoid@3.3.9", "", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha512-SppoicMGpZvbF1l3z4x7No3OlIjP7QJvC9XR7AhZr1kL133KHnKPztkKDc+Ir4aJ/1VhTySrtKhrsycmrMQfvg=="],
 
