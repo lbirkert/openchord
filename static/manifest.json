@@ -1,0 +1,27 @@
+{
+  "name": "OpenSong",
+  "short_name": "OpenSong",
+  "description": "OpenSong is a free, open-source PWA for worship teams to manage setlists, import and transpose PDF song sheets, and perform live.",
+  "start_url": "/opensong",
+  "scope": "/opensong",
+  "display": "standalone",
+  "background_color": "#0064FF",
+  "theme_color": "#0064FF",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "lang": "en",
+  "categories": ["music", "productivity", "utilities"],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
