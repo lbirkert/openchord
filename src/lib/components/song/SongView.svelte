@@ -8,6 +8,7 @@
 	import type { Song } from '$lib/types.js';
 	import deepcopy from 'deepcopy';
 	import hash from 'object-hash';
+	import { rearangeArray } from '$lib/util.js';
 
 	let fileInput: HTMLInputElement;
 	let files: FileList | undefined = $state();
@@ -49,6 +50,13 @@
 		const setlist = deepcopy(openSongState.setlist!);
 		await (await db.get()).put('setlist', setlist);
 	}
+
+	async function rearange(index: number, toIndex: number) {
+		rearangeArray(songs, index, toIndex);
+		const setlist = deepcopy(openSongState.setlist!);
+		rearangeArray(setlist.songs, index, toIndex);
+		await (await db.get()).put('setlist', setlist);
+	}
 </script>
 
 <Sidebar
@@ -66,9 +74,7 @@
 		{:then}
 			<SortableList
 				active={(i) => songs[i].id === openSongState.song?.id}
-				onrearange={() => {
-					// TODO
-				}}
+				onrearange={rearange}
 				ondelete={deleteSong}
 				onclick={(i) => {
 					openSongState.song = deepcopy(songs[i]);
