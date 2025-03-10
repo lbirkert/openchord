@@ -20,13 +20,15 @@
 	];
 </script>
 
-<div class="key-selector">
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+<ul class="key-selector" onclick={(e: any) => e.preventDefault()}>
 	{#each keys as [name, index, flat]}
 		<li class:active={key !== undefined && index === key[0] && flat === key[1]}>
 			<button
 				onclick={(e: any) => {
-                    // Fix issue with parent clicks getting detected as C-click
-					if (e.explicitOriginalTarget !== e.target) return;
+					// Fix issue with parent clicks getting detected as C-click
+					// if (e.explicitOriginalTarget !== e.target) return;
 					key = [index, flat];
 				}}
 			>
@@ -34,10 +36,10 @@
 			</button>
 		</li>
 	{/each}
-</div>
+</ul>
 
 <style>
-	div {
+	ul {
 		list-style: none;
 		display: flex;
 		row-gap: 5px;
