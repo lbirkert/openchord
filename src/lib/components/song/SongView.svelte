@@ -13,9 +13,17 @@
 	let fileInput: HTMLInputElement;
 	let files: FileList | undefined = $state();
 
+	function readFile(file: File): Promise<ArrayBuffer> {
+		return new Promise((res) => {
+			const reader = new FileReader();
+			reader.readAsArrayBuffer(file);
+			reader.onload = () => res(reader.result as ArrayBuffer);
+		});
+	}
+
 	$effect(() => {
 		if (files !== undefined) {
-			Promise.all([...files].map((f) => f.bytes())).then((contents) => {
+			Promise.all([...files].map(readFile)).then((contents) => {
 				openSongState.importFiles.push(...contents);
 			});
 			fileInput.value = '';
@@ -40,7 +48,7 @@
 		const songHash = hash(song);
 
 		const index = songs.findIndex((s) => s.id === song.id);
-		if (songHash !== hash(songs[index])) songs[index] = deepcopy(song);
+		if (songHash !== hash(songs[index] ?? {})) songs[index] = deepcopy(song);
 	});
 
 	// name might be confusing, only removes from setlist not from library

@@ -2,7 +2,7 @@ import type { Setlist, Song } from "./types.js";
 
 class OpenSongState {
     // current import files
-    importFiles: Uint8Array[] = $state([]);
+    importFiles: ArrayBuffer[] = $state([]);
     // current import preview
     importPreview: string | undefined = $state();
 

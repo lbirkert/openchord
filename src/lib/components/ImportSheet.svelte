@@ -11,21 +11,22 @@
 	import { analyzeSheet } from '$lib/analyze.js';
 	import SidebarLoad from './SidebarLoad.svelte';
 	import { patchSheet } from '$lib/patch.js';
+	import hash from 'object-hash';
 
 	const analyzePromise = $derived(doAnalysis());
 	let source: Source;
 	let meta: SongMeta = $state(undefined!);
-	let metaHash: string = $derived(JSON.stringify(meta));
 	let currentSheetHash: string = '';
 
 	async function doAnalysis() {
-		[source, meta] = await analyzeSheet(openSongState.importFiles[0].buffer as ArrayBuffer);
+		[source, meta] = await analyzeSheet(openSongState.importFiles[0]);
 	}
 
 	let timeoutId: number | undefined;
 
 	$effect(() => {
-		console.log(metaHash);
+		if(meta === undefined) return;
+		const metaHash = hash(meta);
 		if (timeoutId !== undefined) clearTimeout(timeoutId);
 		timeoutId = setTimeout(async () => {
 			if (metaHash !== currentSheetHash) {
