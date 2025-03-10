@@ -4,6 +4,11 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
 	optimizeDeps: {
+		exclude: [
+			'mupdf',
+			'pdfjs-dist',
+		],
+		include: ['pdf-lib', 'pako'],
 		esbuildOptions: {
 			target: 'esnext'
 		}

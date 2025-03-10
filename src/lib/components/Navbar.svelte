@@ -15,10 +15,9 @@
 			if ((showLeft = !showLeft)) showRight = false;
 		}}>Songs</button
 	>
-	<h1>
-		<Icon data={faMusic} />
-		OpenSong
-	</h1>
+	<a href="/">
+		<h1>OpenSong</h1>
+	</a>
 	<button
 		class:active={showRight}
 		onclick={() => {
@@ -29,29 +28,26 @@
 
 <style>
 	header {
-        z-index: 200;
-        background-color: var(--color-bg);
+		z-index: 200;
+		background-color: var(--color-bg);
 		height: 40px;
 		width: 100vw;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 10px 20px;
-
-		box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.2);
-		-webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.2);
-		-moz-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.2);
+		border-bottom: 2px solid var(--color-accent);
 	}
 
 	button {
-		border: 2px solid var(--color-accent);
+		border: none;
 		background-color: transparent;
 		border-radius: var(--radius0);
 		color: var(--color-accent);
 		font-size: 14px;
 		font-weight: 500;
 		cursor: pointer;
-		padding: 0px 10px;
+		padding: 2px 10px;
 		transition:
 			background-color 0.3s ease,
 			color 0.3s ease;
@@ -59,11 +55,18 @@
 
 	button.active {
 		background-color: var(--color-accent);
-		color: white;
+		color: var(--color-text-on-accent);
 	}
 
 	h1 {
 		font-size: 18px;
-        font-weight: 100;
+		font-weight: 100;
+		font-family: 'Bagel Fat One', sans-serif;
+		color: var(--color-accent);
+		transform: translateY(-2px);
+	}
+	
+	a {
+		text-decoration: none;
 	}
 </style>

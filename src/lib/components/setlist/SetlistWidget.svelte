@@ -11,7 +11,7 @@
 		<Icon data={faList} scale={1.5} />
 	</div>
 	<div class="detail">
-		<p class="title">{setlist.title}</p>
+		<h3 class="title">{setlist.title}</h3>
 		<p class="description">{setlist.description}</p>
 	</div>
 </div>

@@ -1,15 +1,13 @@
 <script lang="ts">
-	import { faArrowLeft, faBackward } from '@fortawesome/free-solid-svg-icons';
 	import SortableList from '../SortableList.svelte';
-	import { Icon } from 'svelte-awesome';
 	import { openSongState } from '$lib/state.svelte.js';
 	import Sidebar from '../Sidebar.svelte';
 	import { db } from '$lib/db.js';
 	import SongWidget from './SongWidget.svelte';
 	import SidebarLoad from '../SidebarLoad.svelte';
 	import type { Song } from '$lib/types.js';
-	import { text } from '@sveltejs/kit';
 	import deepcopy from 'deepcopy';
+	import hash from 'object-hash';
 
 	let fileInput: HTMLInputElement;
 	let files: FileList | undefined = $state();
@@ -34,6 +32,16 @@
 	}
 	let songsPromise = loadSongs();
 
+	$effect(() => {
+		if (openSongState.song === undefined) return;
+
+		const song = openSongState.song;
+		const songHash = hash(song);
+
+		const index = songs.findIndex((s) => s.id === song.id);
+		if (songHash !== hash(songs[index])) songs[index] = deepcopy(song);
+	});
+
 	// name might be confusing, only removes from setlist not from library
 	async function deleteSong(index: number): Promise<void> {
 		songs.splice(index, 1);
@@ -57,12 +65,13 @@
 			<SidebarLoad />
 		{:then}
 			<SortableList
+				active={(i) => songs[i].id === openSongState.song?.id}
 				onrearange={() => {
 					// TODO
 				}}
 				ondelete={deleteSong}
-				onclick={() => {
-					// TODO
+				onclick={(i) => {
+					openSongState.song = deepcopy(songs[i]);
 				}}
 				length={songs.length}
 				itemHeight={80}

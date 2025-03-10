@@ -1,29 +1,69 @@
 <script lang="ts">
-    let { show }: { show: boolean } = $props();
+	import { openSongState } from '$lib/state.svelte.js';
+	import ImportSheet from './ImportSheet.svelte';
+	import Setlists from './setlist/Setlists.svelte';
+	import SongLibrary from './song/SongLibrary.svelte';
+	import SongSettings from './song/SongSettings.svelte';
+	import SongView from './song/SongView.svelte';
+
+	let { show = $bindable() }: { show: boolean } = $props();
 </script>
 
 <div class="sidebar-right" class:show>
+    <SongSettings/>
 </div>
 
+<button
+	aria-label="return to sheet"
+	class="darken"
+	class:show
+	onclick={() => {
+		show = false;
+	}}
+></button>
+
 <style>
-	.sidebar-right {
-        position: absolute;
-        top: 40px;
-        right: -100%;
-        transition: right 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        height: calc(100dvh - 40px);
-        max-width: 400px;
-        width: 100%;
-        background-color: var(--color-bg);
-        border-top: var(--border0);
-		box-shadow: -12px 0px 33px 6px rgba(0, 0, 0, 0.2);
-		-webkit-box-shadow: -12px 0px 33px 6px rgba(0, 0, 0, 0.2);
-		-moz-box-shadow: -12px 0px 33px 6px rgba(0, 0, 0, 0.2);
+	.darken {
+		position: absolute;
+		top: 40px;
+		left: 0;
+		width: 100vw;
+		height: calc(100dvh - 40px);
+		z-index: 50;
+		background-color: var(--color-darken);
+		opacity: 0;
+		transition: opacity 0.3s ease;
+		pointer-events: none;
+		border: none;
+		cursor: pointer;
 	}
 
-    .sidebar-right.show {
-        right: 0;
-    }
+	.darken.show {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	.sidebar-right {
+		z-index: 200;
+
+        border-left: var(--border0);
+		position: absolute;
+		top: 40px;
+		right: -100%;
+		transition: right 0.3s ease;
+		display: flex;
+		flex-direction: column;
+		height: calc(100dvh - 40px);
+		max-width: 300px;
+		width: 100%;
+		background-color: var(--color-bg);
+
+		box-shadow: -12px 12px 18px -6px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: -12px 12px 18px -6px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: -12px 12px 18px -6px rgba(0, 0, 0, 0.2);
+	}
+
+	.sidebar-right.show {
+		right: 0;
+	}
 </style>

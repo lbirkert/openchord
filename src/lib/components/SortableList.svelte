@@ -30,6 +30,7 @@
 		pointerId?: number;
 	};
 
+	let disableClick: boolean = false;
 	let drag: Drag | undefined = $state();
 	let dragDY: number = $state(0);
 	let deleteActive: boolean = $derived(getDeleteActive());
@@ -67,7 +68,7 @@
 	function submitDrag() {
 		if (drag === undefined) return;
 
-		if(deleteActive) {
+		if (deleteActive) {
 			ondelete(drag.index);
 			drag = undefined;
 			return;
@@ -79,6 +80,9 @@
 		onrearange(drag.index, newIndex);
 
 		drag = undefined;
+
+		disableClick = true;
+		setTimeout(() => disableClick = false, 100);
 	}
 
 	function onMouseUp(event: MouseEvent) {
@@ -127,7 +131,9 @@
 					timeframe: 300,
 					triggerBeforeFinished: true
 				})}
-				onclick={() => onclick(index)}
+				onclick={() => {
+					if (!disableClick) onclick(index);
+				}}
 				onpress={(event) => onPress(index, event)}
 				style:height="{itemHeight}px"
 				style:top="{getTop(index)}px"

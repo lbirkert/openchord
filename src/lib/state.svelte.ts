@@ -1,4 +1,4 @@
-import type { Setlist } from "./types.js";
+import type { Setlist, Song } from "./types.js";
 
 class OpenSongState {
     // current import files
@@ -8,6 +8,9 @@ class OpenSongState {
 
     // opened setlist
     setlist: Setlist | undefined = $state();
+
+    // opened song
+    song: Song | undefined = $state();
 
     // whether library is opened
     library: boolean = $state(false);

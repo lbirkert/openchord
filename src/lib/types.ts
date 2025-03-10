@@ -1,18 +1,16 @@
 import * as mupdfjs from 'mupdf/mupdfjs';
 
 export type Color = mupdfjs.Color;
-export type Rect = mupdfjs.Rect;
+export type Rect = [ number, number, number, number ];
 
-// TODO: change key to string
-export type Key = {
-    index: number,
-    flat: boolean,
-}
+// <index> <isFlat>
+export type Key = [ number, boolean ];
 
 export interface SongMeta {
     title: string;
     author: string;
     description: string;
+    text: string;
     key: Key;
     tempo?: number;
     timeSignature?: string;
@@ -21,37 +19,30 @@ export interface SongMeta {
 }
 
 export interface Source {
-    bytes: ArrayBufferLike;
-    patch: Patch;
+    data: ArrayBuffer;
+    patch: PatchData;
 }
 
-export interface Patch {
-    chordPatches: { [key: number]: ChordPatch[] };
-    titlePatch: HeaderPatch;
-    authorPatch: HeaderPatch;
-    descriptionPatch?: HeaderPatch;
-    detailPatch?: HeaderPatch; // (Keys + Tempo + Time)
-    capoPatch: HeaderPatch;
+export interface PatchData {
+    chords: { [key: number]: ChordPatchData[] };
+    titleLocation: Rect;
+    detailLocation?: Rect; // (Keys + Tempo + Time)
+    capoLocation: Rect;
 }
 
-export interface PatchOptions {
-    align?: number; // defaults to align left center
-    size: number;
-    thickness: number; 
-    color?: Color; // defaults to black
-    font?: string; // defaults to Helvetica
-};
-
-export interface HeaderPatch {
-    redact: Rect;
-    options: PatchOptions;
+export interface ChordPatchData {
+    rect: Rect;
+    prefix: string;
+    nashvile: string;
 }
 
-export interface ChordPatch {
-    redact: Rect;
-    options: PatchOptions; // these are global
-    chordFn: string;
-}
+// export interface PatchOptions {
+//     align?: number; // defaults to align left center
+//     size: number;
+//     thickness: number; 
+//     color?: Color; // defaults to black
+//     font?: string; // defaults to Helvetica
+// };
 
 export interface Song {
     id?: number;

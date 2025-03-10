@@ -1,15 +1,15 @@
 <script lang="ts">
-	import { chordBases } from '$lib/patcher.js';
+	import { dumpKey } from '$lib/chord.js';
 	import type { SongMeta } from '$lib/types.js';
 	import { faMusic } from '@fortawesome/free-solid-svg-icons';
 	import { Icon } from 'svelte-awesome';
 
 	let { song }: { song: SongMeta } = $props();
 
-	let key = $derived(chordBases[song.key.index][song.key.flat ? 1 : 0]);
+	let key = $derived(dumpKey(song.key));
 
 	let description = $derived(
-		`${song.author} | in ${key} | ${song.tempo} BMP | ${song.timeSignature}`
+		`${song.description} | in ${key}`
 	);
 </script>
 
@@ -18,14 +18,14 @@
 		<Icon data={faMusic} scale={1.5} />
 	</div>
 	<div>
-		<p class="title">{song.title}</p>
+		<h4 class="title">{song.title}</h4>
 		<p class="description">{description}</p>
 	</div>
 </div>
 
 <style>
 	.song {
-		padding: 0 20px;
+		padding: 20px;
 		height: 100%;
 		display: flex;
 		flex-direction: row;

@@ -2,30 +2,43 @@
 	import { faArrowLeft, faBackward } from '@fortawesome/free-solid-svg-icons';
 	import { Icon } from 'svelte-awesome';
 	import { openSongState } from '$lib/state.svelte.js';
-	import { analyzeSheet, patch } from '$lib/sheet.js';
 	import { onDestroy } from 'svelte';
 	import KeySelector from './KeySelector.svelte';
 	import { db } from '$lib/db.js';
-	import type { Song } from '$lib/types.js';
+	import type { Song, SongMeta, Source } from '$lib/types.js';
 	import deepcopy from 'deepcopy';
 	import Sidebar from './Sidebar.svelte';
+	import { analyzeSheet } from '$lib/analyze.js';
+	import SidebarLoad from './SidebarLoad.svelte';
+	import { patchSheet } from '$lib/patch.js';
 
-	const [source, meta] = $derived(analyzeSheet(openSongState.importFiles[0]));
+	const analyzePromise = $derived(doAnalysis());
+	let source: Source;
+	let meta: SongMeta = $state(undefined!);
+	let metaHash: string = $derived(JSON.stringify(meta));
+	let currentSheetHash: string = '';
+
+	async function doAnalysis() {
+		[source, meta] = await analyzeSheet(openSongState.importFiles[0].buffer as ArrayBuffer);
+	}
 
 	let timeoutId: number | undefined;
 
 	$effect(() => {
+		console.log(metaHash);
 		if (timeoutId !== undefined) clearTimeout(timeoutId);
-		timeoutId = setTimeout(() => {
-			if (openSongState.importPreview !== undefined) {
-				return;
-				URL.revokeObjectURL(openSongState.importPreview!);
+		timeoutId = setTimeout(async () => {
+			if (metaHash !== currentSheetHash) {
+				if (openSongState.importPreview !== undefined) {
+					URL.revokeObjectURL(openSongState.importPreview!);
+				}
+				const bytes = await patchSheet(source, meta);
+				openSongState.importPreview = URL.createObjectURL(
+					new Blob([bytes], { type: 'application/pdf' })
+				);
+				currentSheetHash = metaHash;
 			}
-			const bytes = patch(source, meta);
-			openSongState.importPreview = URL.createObjectURL(
-				new Blob([bytes], { type: 'application/pdf' })
-			);
-		}, 1000);
+		}, 100);
 	});
 
 	onDestroy(() => {
@@ -67,34 +80,38 @@
 		Import Sheet
 	{/snippet}
 	{#snippet main()}
-		<form>
-			<label>
-				Title
-				<input type="text" placeholder="Title" bind:value={meta.title} />
-			</label>
-			<label>
-				Author
-				<input type="text" placeholder="Author" bind:value={meta.author} />
-			</label>
-			<label>
-				Description
-				<input type="text" placeholder="Description" bind:value={meta.description} />
-			</label>
-			<div class="row">
+		{#await analyzePromise}
+			<SidebarLoad />
+		{:then}
+			<form>
 				<label>
-					Tempo
-					<input type="number" placeholder="Tempo" bind:value={meta.tempo} />
+					Title
+					<input type="text" placeholder="Title" bind:value={meta.title} />
 				</label>
 				<label>
-					Time signature
-					<input type="text" placeholder="Time" bind:value={meta.timeSignature} />
+					Author
+					<input type="text" placeholder="Author" bind:value={meta.author} />
 				</label>
-			</div>
-			<label>
-				Key
-				<KeySelector index={meta.key.index} flat={meta.key.flat} />
-			</label>
-		</form>
+				<label>
+					Description
+					<input type="text" placeholder="Description" bind:value={meta.description} />
+				</label>
+				<div class="row">
+					<label>
+						Tempo
+						<input type="number" placeholder="Tempo" bind:value={meta.tempo} />
+					</label>
+					<label>
+						Time signature
+						<input type="text" placeholder="Time" bind:value={meta.timeSignature} />
+					</label>
+				</div>
+				<label>
+					Key
+					<KeySelector bind:key={meta.key} />
+				</label>
+			</form>
+		{/await}
 	{/snippet}
 	{#snippet footer()}
 		<button onclick={addToLibrary}>+ Add to library</button>

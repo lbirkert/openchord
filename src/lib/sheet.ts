@@ -3,7 +3,7 @@
 
 import type { PDFPage } from 'mupdf';
 import * as mupdfjs from 'mupdf/mupdfjs';
-import { type Source, type HeaderPatch, ALIGN_LEFT_CENTER, ALIGN_RIGHT_CENTER, type ChordPatch, type Patch, type SongMeta, type PatchOptions, type Key } from './types.js';
+import { type Source, type HeaderPatch, ALIGN_LEFT_CENTER, ALIGN_RIGHT_CENTER, type ChordPatch, type PatchData, type SongMeta, type PatchOptions, type Key } from './types.js';
 
 export const chordBases = [
     ['C', 'C'],
@@ -47,46 +47,6 @@ export const wordsTimeSignature = [
     'Time', 'Taktart'
 ];
 
-
-// get index of base note
-export function getBaseIdx(base: string, bases: string[][]) {
-    for (let i = 0; i < bases.length; i++) {
-        if (bases[i].includes(base)) return i;
-    }
-
-    throw Error(`Invalid base note! ${base}`);
-}
-
-// convert chord in nashvile form to the appropriate key
-export function convertChord(text: string, key: string): string | undefined {
-    const key_idx = getBaseIdx(key, chordBases);
-
-    // 1. Step, check root
-    const root = chordBasesNashvile.flat().find((base) => text.startsWith(base));
-    if (!root) {
-        return undefined;
-    }
-    const root_idx = getBaseIdx(root, chordBasesNashvile);
-    const croot = chordBases[(root_idx + key_idx) % chordBases.length][0]; // TODO: maybe don't take the 1st always
-    text = text.substring(root.length);
-
-    // 2. Step, get inversion
-    const inversion = chordBasesNashvile.flat().find((base) => text.startsWith('/' + base));
-    let cinversion = '';
-    if (inversion) {
-        const inversion_idx = getBaseIdx(inversion, chordBasesNashvile);
-        text = text.substring(0, text.length - inversion.length - 1);
-        cinversion = '/' + chordBases[(inversion_idx + key_idx) % chordBases.length][0]; // TODO: same here
-    }
-
-    // TODO: 3. Step => extensions
-
-    return croot + text + cinversion;
-}
-
-export function isNashvile(text: string): boolean {
-    return convertChord(text, 'C') !== undefined;
-}
 
 export type PDFWord = {
     rect: mupdfjs.Rect,
@@ -213,8 +173,9 @@ function isValidLatinString(str: string): boolean {
 }
 
 // extract data from a sheet (TODO: add ability to hint a key)
-export function analyzeSheet(contents: Uint8Array): [Source, SongMeta] {
-    const doc: mupdfjs.PDFDocument = mupdfjs.PDFDocument.openDocument(contents, 'application/pdf');
+export function analyzeSheet(buffer: ArrayBuffer): [Source, SongMeta] {
+    const doc = mupdfjs.PDFDocument.openDocument(
+        buffer, 'application/pdf');
 
     let titlePatch: HeaderPatch = undefined!;
     let capoPatch: HeaderPatch = undefined!;
@@ -380,7 +341,7 @@ export function analyzeSheet(contents: Uint8Array): [Source, SongMeta] {
 
     doc.destroy();
 
-    const patch: Patch = {
+    const patch: PatchData = {
         titlePatch,
         authorPatch,
         descriptionPatch,
@@ -405,7 +366,7 @@ export function analyzeSheet(contents: Uint8Array): [Source, SongMeta] {
 
     return [
         {
-            bytes: contents.buffer,
+            bytes: buffer,
             patch,
         }, meta
     ];

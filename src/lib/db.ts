@@ -20,8 +20,12 @@ interface OpenSongDB extends DBSchema {
     pdfCache: {
         key: string; // key is: song_id + hash of song_meta
         value: {
-            data: Uint8Array; // Binary PDF data
+            id?: string;
+            data: ArrayBuffer; // Binary PDF data
             timestamp: number; // Store insertion time
+        };
+        indexes: {
+            timestamp: 'timestamp';
         };
     };
 }
@@ -35,14 +39,26 @@ class IDBWrapper {
     }
 
     async _init() {
-        if(!browser) await new Promise(()=>{});
+        if (!browser) await new Promise(() => { });
         const idb = await import('idb');
-        this._idb = await idb.openDB<OpenSongDB>('OpenSong', 1, {
+        console.log('[IDB] opening database!')
+        this._idb = await idb.openDB<OpenSongDB>('OpenSong2', 1, {
+            terminated() {
+                console.log('[IDB] terminated...');
+            },
+            blocked() {
+                console.log('[IDB] blocked...');
+            },
+            blocking() {
+                console.log('[IDB] blocking...');
+            },
             upgrade(db) {
+                console.log('[IDB] performing upgrade')
                 db.createObjectStore('source', { keyPath: 'id', autoIncrement: true });
                 db.createObjectStore('song', { keyPath: 'id', autoIncrement: true });
                 db.createObjectStore('setlist', { keyPath: 'id', autoIncrement: true });
-                db.createObjectStore('pdfCache', { keyPath: 'id' });
+                db.createObjectStore('pdfCache', { keyPath: 'id' })
+                    .createIndex('timestamp', 'timestamp');
             },
         });
     }

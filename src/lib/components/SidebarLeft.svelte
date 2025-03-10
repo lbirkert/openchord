@@ -37,10 +37,9 @@
 		width: 100vw;
 		height: calc(100dvh - 40px);
 		z-index: 50;
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: var(--color-darken);
 		opacity: 0;
 		transition: opacity 0.3s ease;
-		backdrop-filter: blur(2px);
 		pointer-events: none;
 		border: none;
 		cursor: pointer;
@@ -54,7 +53,7 @@
 	.sidebar-left {
 		z-index: 200;
 
-		border-top: var(--border0);
+		border-right: var(--border0);
 		position: absolute;
 		top: 40px;
 		left: -100%;
