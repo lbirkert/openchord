@@ -36,6 +36,7 @@
 			height: 100dvh;
 			overscroll-behavior: none;
 			background-color: var(--color-bg);
+			position: relative;
 		}
 
 		* {
