@@ -1,4 +1,10 @@
-<h1><a href="https://lbirkert.com/openchord">OpenChord</a></h1>
+<h1>
+<img src="/brand/banner-dark.svg#gh-dark-mode-only" alt="OpenChord" width="400px"/>
+<img src="/brand/banner-light.svg#gh-light-mode-only" alt="OpenChord" width="400px"/>
+</h1>
+
+> use the [web app](https://lbirkert.com/openchord) or download a native binary from
+[releases](https://github.com/lbirkert/openchord/releases)
 
 OpenChord (acronym: OPENCHRD) is an opensource PWA (progressive web app),
 which allows importing PDF song sheets and has a builtin patcher for transposing.
