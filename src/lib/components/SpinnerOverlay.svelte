@@ -16,7 +16,7 @@
 			z-index: 1000;
 			display: flex;
 			flex-direction: column;
-			gap: 0px;
+			gap: 10px;
 			align-items: center;
 			justify-content: center;
 			transition: opacity 0.6s ease;
@@ -24,9 +24,8 @@
 
 		.spinner-overlay h1 {
             color: var(--color-accent);
-            height: 87.5px;
-			font-size: 60px;
-			font-family: 'Bagel Fat One', sans-serif;
+			font-size: 48px;
+			font-family: 'Dela Gothic One', sans-serif;
 		}
 
 		.spinner-overlay h3 {
@@ -47,7 +46,7 @@
 </svelte:head>
 
 <div class="spinner-overlay" class:hide>
-	<h1>OpenSong</h1>
+	<h1>OPENSONG</h1>
 	<h3>
 		<Spinner scale={0.8} />
 		Loading Assets...

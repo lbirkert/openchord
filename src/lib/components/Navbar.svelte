@@ -16,7 +16,7 @@
 		}}>Songs</button
 	>
 	<a href={import.meta.env.VITE_PUBLIC_BASE_URL}>
-		<h1>OpenSong</h1>
+		<h1>OPENSONG</h1>
 	</a>
 	<button
 		class:active={showRight}
@@ -47,7 +47,7 @@
 		font-size: 14px;
 		font-weight: 500;
 		cursor: pointer;
-		padding: 2px 10px;
+		padding: 3px 10px;
 		transition:
 			background-color 0.3s ease,
 			color 0.3s ease;
@@ -59,11 +59,10 @@
 	}
 
 	h1 {
-		font-size: 18px;
+		font-size: 15px;
 		font-weight: 100;
-		font-family: 'Bagel Fat One', sans-serif;
+		font-family: 'Dela Gothic One', sans-serif;
 		color: var(--color-accent);
-		transform: translateY(-2px);
 	}
 	
 	a {

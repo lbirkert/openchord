@@ -40,7 +40,7 @@
 		}
 
 		* {
-			font-family: 'Poppins', sans-serif;
+			font-family: -apple-system, 'Inter', sans-serif;
 			margin: 0;
 			box-sizing: border-box;
 			color: var(--color-text);
