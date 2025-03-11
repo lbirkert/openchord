@@ -16,7 +16,7 @@
 		}}>Songs</button
 	>
 	<a href={import.meta.env.VITE_PUBLIC_BASE_URL}>
-		<h1>OPENSONG</h1>
+		<h1>OPENCHRD</h1>
 	</a>
 	<button
 		class:active={showRight}

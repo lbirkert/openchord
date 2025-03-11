@@ -46,7 +46,7 @@
 </svelte:head>
 
 <div class="spinner-overlay" class:hide>
-	<h1>OPENSONG</h1>
+	<h1>OPENCHRD</h1>
 	<h3>
 		<Spinner scale={0.8} />
 		Loading Assets...
