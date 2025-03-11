@@ -58,7 +58,7 @@ function _mergeCloseTextItems(textItems: TextItem[]) {
     let lastMaxX: number = 0;
     let lastMinY: number = 0;
     for (const item of textItems) {
-        if(item.str == '') {
+        if(item.str.trim() == '') {
             mergedItems.push(item);
             continue;
         }
@@ -70,13 +70,14 @@ function _mergeCloseTextItems(textItems: TextItem[]) {
             merge.str += item.str;
             merge.width += item.width;
             merge.height = Math.max(item.transform[5] + item.height, merge.transform[5] + merge.height) - merge.transform[5] + 1;
+            console.log('MERGE');
         } else mergedItems.push(item);
 
         lastMaxX = item.transform[4] + item.width;
         lastMinY = item.transform[5];
     }
 
-    console.log(mergedItems);
+    //console.log(mergedItems);
 
     return mergedItems;
 }
@@ -153,6 +154,7 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
         const textContent = await page.getTextContent();
         let words = textContent.items.map((w) => w as TextItem);
         words = _mergeCloseTextItems(words);
+        console.log(words);
 
 
         console.log(words);
