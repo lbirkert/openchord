@@ -42,7 +42,7 @@ class IDBWrapper {
         if (!browser) await new Promise(() => { });
         const idb = await import('idb');
         console.log('[IDB] opening database!')
-        this._idb = await idb.openDB<OpenChordDB>('OpenChord2', 1, {
+        this._idb = await idb.openDB<OpenChordDB>('OpenChord', 1, {
             terminated() {
                 console.log('[IDB] terminated...');
             },
