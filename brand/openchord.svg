@@ -29,15 +29,15 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.28736475"
-     inkscape:cx="1230.1439"
-     inkscape:cy="127.01628"
+     inkscape:zoom="1.2335291"
+     inkscape:cx="-625.84659"
+     inkscape:cy="-130.11448"
      inkscape:window-width="1512"
      inkscape:window-height="916"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g103"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true">
     <inkscape:grid
@@ -62,9 +62,9 @@
        id="page10"
        margin="0"
        bleed="0"
-       inkscape:export-filename="icon-light-192x192.png"
-       inkscape:export-xdpi="48.768017"
-       inkscape:export-ydpi="48.768017" />
+       inkscape:export-filename="Philosophy Dark.pdf"
+       inkscape:export-xdpi="16.256004"
+       inkscape:export-ydpi="16.256004" />
     <inkscape:page
        x="-181.36057"
        y="70.485222"
@@ -164,6 +164,28 @@
        width="100"
        height="100"
        id="page102"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="Brand Guidelines.pdf"
+       inkscape:export-xdpi="8.1280022"
+       inkscape:export-ydpi="8.1280022" />
+    <inkscape:page
+       x="-181.34282"
+       y="-51.172337"
+       width="49.502182"
+       height="11.152267"
+       id="page1"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="banner-light.png"
+       inkscape:export-xdpi="525.42328"
+       inkscape:export-ydpi="525.42328" />
+    <inkscape:page
+       x="-181.31703"
+       y="-38.418266"
+       width="49.466492"
+       height="10.997894"
+       id="page2"
        margin="0"
        bleed="0" />
   </sodipodi:namedview>
@@ -413,6 +435,203 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-181.36057,158.15078)">
+    <g
+       id="g54-7"
+       transform="matrix(1.2900264,0,0,1.2900264,-25.105762,-43.693657)"
+       inkscape:label="BANNER LIGHT">
+      <g
+         id="g48-5-1">
+        <g
+           id="g55-5">
+          <g
+             id="g45-2-2"
+             style="stroke:none;stroke-opacity:1"
+             transform="matrix(0.52726264,0,0,0.52726264,21.510225,-101.88716)">
+            <g
+               id="g53-1"
+               transform="translate(-17.436705,8.4049566)">
+              <text
+                 xml:space="preserve"
+                 style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.004152"
+                 y="-50.62907"
+                 id="text1-0-7-1"><tspan
+                   sodipodi:role="line"
+                   id="tspan1-4-3-0"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                   x="14.004152"
+                   y="-50.62907">OPENCHRD</tspan></text>
+            </g>
+          </g>
+          <g
+             id="g44-9-1"
+             transform="matrix(1.0694063,0,0,1.0694063,4.162717,-81.22431)">
+            <g
+               id="g43-2-8"
+               transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                 x="29.640526"
+                 y="-33.193802"
+                 id="text25-4-3-7"><tspan
+                   sodipodi:role="line"
+                   id="tspan25-4-59-6"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                   x="29.640526"
+                   y="-33.193802"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;stroke-width:0.0849387"
+                     id="tspan23-1-7-00">CHURCH</tspan></tspan></text>
+              <g
+                 id="g33-5-9-2-9"
+                 transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)">
+                <path
+                   d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                   id="path33-3-0-4-5" />
+                <path
+                   d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                   id="path32-5-2-2-6" />
+                <path
+                   d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                   id="path31-9-1-4-28" />
+              </g>
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="40.021339"
+               y="-36.595665"
+               id="text38-6-5"><tspan
+                 sodipodi:role="line"
+                 id="tspan38-7-9"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                 x="40.021339"
+                 y="-36.595665"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#4d4d4d;stroke-width:0.0750238"
+                   id="tspan37-5-43">musicians</tspan></tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="14.256371"
+               y="-36.578873"
+               id="text43-9-9"><tspan
+                 sodipodi:role="line"
+                 id="tspan43-2-0"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.256371"
+                 y="-36.578873"><tspan
+                   style="line-height:0;letter-spacing:-0.0482546px;fill:#4d4d4d;stroke-width:0.0750238"
+                   id="tspan40-6-5"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;stroke-width:0.0750238"
+                     id="tspan39-2-6"
+                     dx="0.67480463">for all the</tspan></tspan></tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g54-6-0"
+       transform="matrix(1.2900264,0,0,1.2900264,-25.08515,-31.008439)"
+       inkscape:label="BANNER DARK">
+      <g
+         id="g48-5-2-4">
+        <g
+           id="g55-8-6">
+          <g
+             id="g45-2-4-4"
+             style="fill:#3296ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+             transform="matrix(0.52726264,0,0,0.52726264,21.510225,-101.88716)">
+            <g
+               id="g53-6-6"
+               transform="translate(-17.436705,8.4049566)"
+               style="fill:#3296ff;fill-opacity:1">
+              <text
+                 xml:space="preserve"
+                 style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                 x="13.973862"
+                 y="-50.62907"
+                 id="text1-0-7-6-4"><tspan
+                   sodipodi:role="line"
+                   id="tspan1-4-3-2-3"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                   x="13.973862"
+                   y="-50.62907">OPENCHRD</tspan></text>
+            </g>
+          </g>
+          <g
+             id="g44-9-7-8"
+             transform="matrix(1.0694063,0,0,1.0694063,4.1467462,-81.22431)">
+            <g
+               id="g43-2-1-4"
+               transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)"
+               style="fill:#ffffff">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                 x="29.640526"
+                 y="-33.193802"
+                 id="text25-4-3-8-0"><tspan
+                   sodipodi:role="line"
+                   id="tspan25-4-59-4-0"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                   x="29.640526"
+                   y="-33.193802"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;fill:#ffffff;stroke-width:0.0849387"
+                     id="tspan23-1-7-0-9">CHURCH</tspan></tspan></text>
+              <g
+                 id="g33-5-9-2-7-3"
+                 transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)"
+                 style="fill:#ffffff">
+                <path
+                   d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                   id="path33-3-0-4-7-7" />
+                <path
+                   d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                   id="path32-5-2-2-1-5" />
+                <path
+                   d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                   id="path31-9-1-4-2-7" />
+              </g>
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="40.021339"
+               y="-36.595665"
+               id="text38-6-2-2"><tspan
+                 sodipodi:role="line"
+                 id="tspan38-7-7-9"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                 x="40.021339"
+                 y="-36.595665"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#999999;fill-opacity:1;stroke-width:0.0750238"
+                   id="tspan37-5-4-7">musicians</tspan></tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="14.256371"
+               y="-36.578873"
+               id="text43-9-7-5"><tspan
+                 sodipodi:role="line"
+                 id="tspan43-2-5-6"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.256371"
+                 y="-36.578873"><tspan
+                   style="line-height:0;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke-width:0.0750238"
+                   id="tspan40-6-7-5"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;fill:#999999;fill-opacity:1;stroke-width:0.0750238"
+                     id="tspan39-2-3-3"
+                     dx="0.67480463">for all the</tspan></tspan></tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
     <g
        id="g180"
        inkscape:label="BACKGROUND PATTERN DARK">
@@ -1084,28 +1303,28 @@
            transform="matrix(0.7849654,0,0,0.7849654,3.2631232,-13.29788)"><tspan
              x="15.015882"
              y="65.321785"
-             id="tspan73"><tspan
+             id="tspan2"><tspan
                style="font-size:7.05556px"
-               id="tspan7">OpenChord is a non-profit project authored by people </tspan></tspan><tspan
+               id="tspan1">OpenChord is a non-profit project authored by people </tspan></tspan><tspan
              x="15.015882"
              y="75.905127"
-             id="tspan77"><tspan
+             id="tspan6"><tspan
                style="font-size:7.05556px"
-               id="tspan74">not only passionate for developing, but also for </tspan><tspan
+               id="tspan3">not only passionate for developing, but also for </tspan><tspan
                style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-               id="tspan75">Jesus</tspan><tspan
+               id="tspan4">Jesus</tspan><tspan
                style="font-size:7.05556px"
-               id="tspan76">.
+               id="tspan5">.
 </tspan></tspan><tspan
              x="15.015882"
              y="86.488471"
-             id="tspan83"><tspan
+             id="tspan11"><tspan
                style="font-size:7.05556px"
-               id="tspan78">It is and will </tspan><tspan
+               id="tspan8">It is and will </tspan><tspan
                style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-               id="tspan79">always be completely free to use</tspan><tspan
+               id="tspan9">always be completely free to use</tspan><tspan
                style="font-size:7.05556px"
-               id="tspan82">.</tspan></tspan></text>
+               id="tspan10">.</tspan></tspan></text>
       </g>
       <g
          id="g62"
@@ -1149,28 +1368,28 @@
                  transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
                    x="15.015882"
                    y="65.321785"
-                   id="tspan91"><tspan
+                   id="tspan13"><tspan
                      style="font-size:7.05556px"
-                     id="tspan84">OpenChord is designed with church service in mind.
+                     id="tspan12">OpenChord is designed with church service in mind.
 </tspan></tspan><tspan
                    x="15.015882"
                    y="75.905127"
-                   id="tspan97"><tspan
+                   id="tspan17"><tspan
                      style="font-size:7.05556px"
-                     id="tspan92">It is optimized for</tspan><tspan
+                     id="tspan14">It is optimized for</tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-                     id="tspan93"> importing SongSelect® sheets</tspan><tspan
+                     id="tspan15"> importing SongSelect® sheets</tspan><tspan
                      style="font-size:7.05556px"
-                     id="tspan95"> </tspan></tspan><tspan
+                     id="tspan16"> </tspan></tspan><tspan
                    x="15.015882"
                    y="86.488471"
-                   id="tspan101"><tspan
+                   id="tspan21"><tspan
                      style="font-size:7.05556px"
-                     id="tspan98">specifically and has </tspan><tspan
+                     id="tspan18">specifically and has </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-                     id="tspan99">lots of other related features</tspan><tspan
+                     id="tspan19">lots of other related features</tspan><tspan
                      style="font-size:7.05556px"
-                     id="tspan100"> as well. </tspan></tspan></text>
+                     id="tspan20"> as well. </tspan></tspan></text>
               <rect
                  style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.0642387;stroke-dasharray:none;stroke-opacity:1"
                  id="rect62"
@@ -1224,31 +1443,31 @@
                  transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
                    x="15.015882"
                    y="65.321785"
-                   id="tspan103"><tspan
+                   id="tspan23"><tspan
                      style="font-size:7.05556px"
-                     id="tspan102">OpenChord is crossplatform by-design, which means you </tspan></tspan><tspan
+                     id="tspan22">OpenChord is crossplatform by-design, which means you </tspan></tspan><tspan
                    x="15.015882"
                    y="75.905127"
-                   id="tspan108"><tspan
+                   id="tspan28"><tspan
                      style="font-size:7.05556px"
-                     id="tspan104">can not only use it </tspan><tspan
+                     id="tspan24">can not only use it </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-                     id="tspan105">on your iPad®</tspan><tspan
+                     id="tspan25">on your iPad®</tspan><tspan
                      style="font-size:7.05556px"
-                     id="tspan106"> but also your </tspan><tspan
+                     id="tspan26"> but also your </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-                     id="tspan107">Windows </tspan></tspan><tspan
+                     id="tspan27">Windows </tspan></tspan><tspan
                    x="15.015882"
                    y="86.488471"
-                   id="tspan113"><tspan
+                   id="tspan33"><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-                     id="tspan109">PC</tspan><tspan
+                     id="tspan29">PC</tspan><tspan
                      style="font-size:7.05556px"
-                     id="tspan110"> and your </tspan><tspan
+                     id="tspan30"> and your </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
-                     id="tspan111">Android Tablet</tspan><tspan
+                     id="tspan31">Android Tablet</tspan><tspan
                      style="font-size:7.05556px"
-                     id="tspan112">. </tspan></tspan></text>
+                     id="tspan32">. </tspan></tspan></text>
             </g>
           </g>
         </g>
@@ -1264,7 +1483,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.80912px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#b7b9ff;fill-opacity:1;stroke-width:0.163327"
            x="23.377569"
            y="160.93169"
-           id="tspan81">© 2025 - The OpenChord Project Authors - All Rights Reserved - SongSelect® is a registered trademark of Christian Copyright Licensing International. - iPad® is a registered trademark of Apple Inc. </tspan></text>
+           id="tspan81">© 2025 - Lucas Birkert - All Rights Reserved - SongSelect® is a registered trademark of Christian Copyright Licensing International. - iPad® is a registered trademark of Apple Inc. </tspan></text>
       <g
          id="g86"
          transform="translate(2.9699986,98.450747)">
@@ -1371,28 +1590,28 @@
            transform="matrix(0.7849654,0,0,0.7849654,3.2631232,-13.29788)"><tspan
              x="15.015882"
              y="65.321785"
-             id="tspan115"><tspan
+             id="tspan35"><tspan
                style="font-size:7.05556px"
-               id="tspan114">OpenChord is a non-profit project authored by people </tspan></tspan><tspan
+               id="tspan34">OpenChord is a non-profit project authored by people </tspan></tspan><tspan
              x="15.015882"
              y="75.905127"
-             id="tspan119"><tspan
+             id="tspan44"><tspan
                style="font-size:7.05556px"
-               id="tspan116">not only passionate for developing, but also for </tspan><tspan
+               id="tspan36">not only passionate for developing, but also for </tspan><tspan
                style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-               id="tspan117">Jesus</tspan><tspan
+               id="tspan41">Jesus</tspan><tspan
                style="font-size:7.05556px"
-               id="tspan118">.
+               id="tspan42">.
 </tspan></tspan><tspan
              x="15.015882"
              y="86.488471"
-             id="tspan123"><tspan
+             id="tspan48"><tspan
                style="font-size:7.05556px"
-               id="tspan120">It is and will </tspan><tspan
+               id="tspan45">It is and will </tspan><tspan
                style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-               id="tspan121">always be completely free to use</tspan><tspan
+               id="tspan46">always be completely free to use</tspan><tspan
                style="font-size:7.05556px"
-               id="tspan122">.</tspan></tspan></text>
+               id="tspan47">.</tspan></tspan></text>
       </g>
       <g
          id="g62-3"
@@ -1436,28 +1655,28 @@
                  transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
                    x="15.015882"
                    y="65.321785"
-                   id="tspan125"><tspan
+                   id="tspan50"><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan124">OpenChord is designed with church service in mind.
+                     id="tspan49">OpenChord is designed with church service in mind.
 </tspan></tspan><tspan
                    x="15.015882"
                    y="75.905127"
-                   id="tspan129"><tspan
+                   id="tspan54"><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan126">It is optimized for</tspan><tspan
+                     id="tspan51">It is optimized for</tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-                     id="tspan127"> importing SongSelect® sheets</tspan><tspan
+                     id="tspan52"> importing SongSelect® sheets</tspan><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan128"> </tspan></tspan><tspan
+                     id="tspan53"> </tspan></tspan><tspan
                    x="15.015882"
                    y="86.488471"
-                   id="tspan133"><tspan
+                   id="tspan58"><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan130">specifically and has </tspan><tspan
+                     id="tspan55">specifically and has </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-                     id="tspan131">lots of other related features</tspan><tspan
+                     id="tspan56">lots of other related features</tspan><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan132"> as well. </tspan></tspan></text>
+                     id="tspan57"> as well. </tspan></tspan></text>
               <rect
                  style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.0642387;stroke-dasharray:none;stroke-opacity:1"
                  id="rect62-3"
@@ -1511,31 +1730,31 @@
                  transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
                    x="15.015882"
                    y="65.321785"
-                   id="tspan135"><tspan
+                   id="tspan60"><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan134">OpenChord is crossplatform by-design, which means you </tspan></tspan><tspan
+                     id="tspan59">OpenChord is crossplatform by-design, which means you </tspan></tspan><tspan
                    x="15.015882"
                    y="75.905127"
-                   id="tspan140"><tspan
+                   id="tspan65"><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan136">can not only use it </tspan><tspan
+                     id="tspan61">can not only use it </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-                     id="tspan137">on your iPad®</tspan><tspan
+                     id="tspan62">on your iPad®</tspan><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan138"> but also your </tspan><tspan
+                     id="tspan63"> but also your </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-                     id="tspan139">Windows </tspan></tspan><tspan
+                     id="tspan64">Windows </tspan></tspan><tspan
                    x="15.015882"
                    y="86.488471"
-                   id="tspan145"><tspan
+                   id="tspan72"><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-                     id="tspan141">PC</tspan><tspan
+                     id="tspan67">PC</tspan><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan142"> and your </tspan><tspan
+                     id="tspan68"> and your </tspan><tspan
                      style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
-                     id="tspan143">Android Tablet</tspan><tspan
+                     id="tspan70">Android Tablet</tspan><tspan
                      style="font-size:7.05556px;fill:#999999"
-                     id="tspan144">. </tspan></tspan></text>
+                     id="tspan71">. </tspan></tspan></text>
             </g>
           </g>
         </g>
@@ -1551,7 +1770,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.80912px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#0058b5;fill-opacity:1;stroke-width:0.163327"
            x="23.377569"
            y="160.93169"
-           id="tspan81-0">© 2025 - The OpenChord Project Authors - All Rights Reserved - SongSelect® is a registered trademark of Christian Copyright Licensing International. - iPad® is a registered trademark of Apple Inc. </tspan></text>
+           id="tspan81-0">© 2025 - Lucas Birkert - All Rights Reserved - SongSelect® is a registered trademark of Christian Copyright Licensing International. - iPad® is a registered trademark of Apple Inc. </tspan></text>
       <g
          id="g86-9"
          transform="translate(2.9699986,98.450747)"
