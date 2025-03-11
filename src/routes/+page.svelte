@@ -9,6 +9,7 @@
 	import { browser } from '$app/environment';
 	import SheetViewer from '$lib/components/SheetViewer.svelte';
 	import SpinnerOverlay from '$lib/components/SpinnerOverlay.svelte';
+	import { migrate } from '$lib/migration/migration.js';
 
 	let files: File[] | undefined = $state();
 
@@ -18,6 +19,7 @@
 	let show = $state(false);
 	let showAnimate = $state(false);
 	onMount(async () => {
+		await migrate();
 		await document.fonts.ready;
 		show = true;
 		setTimeout(() => showAnimate = true);
