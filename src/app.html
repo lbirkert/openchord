@@ -52,8 +52,10 @@
 	<!-- Update favicon based on theme -->
 	<script>
 		const icon = document.querySelector('link[rel="icon"]');
-		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => icon.href = e.matches ? "/icons/icon-dark-64x64.png" : "/icons/icon-light-64x64.png");
-		icon.href = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? "/icons/icon-dark-64x64.png" : "/icons/icon-light-64x64.png"
+		const iconLight = icon.href;
+		const iconDark = icon.href.split('/').slice(0, -1).join('/') + '/icon-dark-64x64.png';
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => icon.href = e.matches ? iconDark : iconLight);
+		icon.href = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? iconDark : iconLight;
 	</script>
 
 	%sveltekit.head%
