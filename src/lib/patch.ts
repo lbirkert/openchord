@@ -74,6 +74,7 @@ export async function patchSheet(source: Source, meta: SongMeta): Promise<ArrayB
                 rect[1] -= 2;
             }
             _redact(page, rect);
+            if (chord.prefix !== '') rect[1] += 2;
 
             const converted = convertChord(chord.nashvile, transposeKey);
             const chordText = chord.prefix + converted;
