@@ -49,6 +49,39 @@ function _extendLine(word: TextItem, line: Line | undefined, style: TextStyle): 
     return line;
 }
 
+function _mergeCloseTextItems(textItems: TextItem[]) {
+    // return textItems;
+    const MAX_Y_DIFF = 10;
+    const MAX_X_DIFF = 5;
+    const mergedItems = [];
+
+    let lastMaxX: number = 0;
+    let lastMinY: number = 0;
+    for (const item of textItems) {
+        if(item.str == '') {
+            mergedItems.push(item);
+            continue;
+        }
+
+        console.log(item, lastMinY, lastMaxX);
+        if (Math.abs(item.transform[4] - lastMaxX) < MAX_X_DIFF &&
+            Math.abs(lastMinY - item.transform[5]) < MAX_Y_DIFF) {
+            const merge = mergedItems[mergedItems.length - 1];
+            merge.str += item.str;
+            merge.width += item.width;
+            merge.height = Math.max(item.transform[5] + item.height, merge.transform[5] + merge.height) - merge.transform[5] + 1;
+        } else mergedItems.push(item);
+
+        lastMaxX = item.transform[4] + item.width;
+        lastMinY = item.transform[5];
+    }
+
+    console.log(mergedItems);
+
+    return mergedItems;
+}
+
+
 function _getLines(words: TextItem[], styles: { [key: string]: TextStyle }): Line[] {
     const EPSILON = 1.0;
 
@@ -118,7 +151,9 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
     for (let pageN = 1; pageN <= pdf.numPages; pageN++) {
         const page = await pdf.getPage(pageN);
         const textContent = await page.getTextContent();
-        const words = textContent.items.map((w) => w as TextItem);
+        let words = textContent.items.map((w) => w as TextItem);
+        words = _mergeCloseTextItems(words);
+
 
         console.log(words);
 
@@ -212,7 +247,7 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
             const prefix = segs.join(' ');
 
             // check for invalid prefix
-            if(prefix.match(/^[|:\s]*$/gm) === null) continue;
+            if (prefix.match(/^[|:\s]*$/gm) === null) continue;
 
             // check for proper nashvile
             if (!isNashvile(nashvile)) continue;
