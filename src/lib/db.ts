@@ -4,7 +4,7 @@ import { type Source, type Song, type Setlist } from './types.js';
 import { browser } from '$app/environment';
 
 // Define the database schema
-interface OpenSongDB extends DBSchema {
+interface OpenChordDB extends DBSchema {
     source: {
         key: number; // Auto-incrementing ID
         value: Source;
@@ -31,7 +31,7 @@ interface OpenSongDB extends DBSchema {
 }
 
 class IDBWrapper {
-    _idb?: IDBPDatabase<OpenSongDB>;
+    _idb?: IDBPDatabase<OpenChordDB>;
     _initPromise: Promise<void>
 
     constructor() {
@@ -42,7 +42,7 @@ class IDBWrapper {
         if (!browser) await new Promise(() => { });
         const idb = await import('idb');
         console.log('[IDB] opening database!')
-        this._idb = await idb.openDB<OpenSongDB>('OpenSong2', 1, {
+        this._idb = await idb.openDB<OpenChordDB>('OpenChord2', 1, {
             terminated() {
                 console.log('[IDB] terminated...');
             },
@@ -63,7 +63,7 @@ class IDBWrapper {
         });
     }
 
-    async get(): Promise<IDBPDatabase<OpenSongDB>> {
+    async get(): Promise<IDBPDatabase<OpenChordDB>> {
         await this._initPromise;
         return this._idb!;
     }

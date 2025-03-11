@@ -1,7 +1,7 @@
 {
-  "name": "OpenSong",
-  "short_name": "OpenSong",
-  "description": "OpenSong is a free, open-source PWA for worship teams to manage setlists, import and transpose PDF song sheets, and perform live.",
+  "name": "OpenChord",
+  "short_name": "OpenChord",
+  "description": "OpenChord is a free, open-source PWA for worship teams to manage setlists, import and transpose PDF song sheets, and perform live.",
   "start_url": "/opensong",
   "scope": "/opensong",
   "display": "standalone",

@@ -1,0 +1,2345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="openchord.svg"
+   inkscape:export-batch-path="/Users/lucasbirkert"
+   inkscape:export-batch-name="batch"
+   inkscape:export-filename="opensong-export.svg"
+   inkscape:export-xdpi="8.1280022"
+   inkscape:export-ydpi="8.1280022"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.28736475"
+     inkscape:cx="1230.1439"
+     inkscape:cy="127.01628"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g103"
+     showgrid="false"
+     showguides="true">
+    <inkscape:grid
+       id="grid7"
+       units="mm"
+       originx="-181.36056"
+       originy="158.15078"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="210"
+       height="297"
+       id="page10"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="icon-light-192x192.png"
+       inkscape:export-xdpi="48.768017"
+       inkscape:export-ydpi="48.768017" />
+    <inkscape:page
+       x="-181.36057"
+       y="70.485222"
+       width="77.331909"
+       height="64.885612"
+       id="page11"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="-258.97879"
+       y="178.9761"
+       width="20"
+       height="24"
+       id="page25"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="-181.36057"
+       y="-0.021900559"
+       width="77.331909"
+       height="64.886536"
+       id="page33"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="-234.17639"
+       y="182.9761"
+       width="20"
+       height="20"
+       id="page50"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="pattern_dark.png"
+       inkscape:export-xdpi="650.23993"
+       inkscape:export-ydpi="650.23993" />
+    <inkscape:page
+       x="-234.22389"
+       y="207.76364"
+       width="20"
+       height="20"
+       id="page52"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="pattern_light.png"
+       inkscape:export-xdpi="650.23993"
+       inkscape:export-ydpi="650.23993" />
+    <inkscape:page
+       x="-97.673439"
+       y="-4.1961671e-06"
+       width="77.370461"
+       height="64.864632"
+       id="page53"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="-97.673439"
+       y="70.485222"
+       width="77.370461"
+       height="64.885612"
+       id="page56"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="240.95155"
+       y="0"
+       width="210"
+       height="297"
+       id="page86"
+       margin="0"
+       bleed="0"
+       page-size="A4"
+       inkscape:export-filename="icon-dark-64x64.png"
+       inkscape:export-xdpi="16.256004"
+       inkscape:export-ydpi="16.256004" />
+    <inkscape:page
+       x="-181.36057"
+       y="146.71527"
+       width="161.05759"
+       height="150.28473"
+       id="page87"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="471.84683"
+       y="0"
+       width="100"
+       height="100"
+       id="page99"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="icon-dark-32x32.png"
+       inkscape:export-xdpi="8.1280022"
+       inkscape:export-ydpi="8.1280022" />
+    <inkscape:page
+       x="471.84683"
+       y="122.17099"
+       width="100"
+       height="100"
+       id="page102"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect100"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,20,0,1 @ F,0,0,1,0,20,0,1 @ F,0,0,1,0,20,0,1 @ F,0,0,1,0,20,0,1"
+       radius="20"
+       unit="mm"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect99"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-0"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-7"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-7"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-0-4"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-0-7"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-0-3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect94-3-0-7-5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1 @ F,0,0,1,0,1.3229166,0,1"
+       radius="5"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect100-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,20,0,1 @ F,0,0,1,0,20,0,1 @ F,0,0,1,0,20,0,1 @ F,0,0,1,0,20,0,1"
+       radius="20"
+       unit="mm"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Open Song"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-181.36057,158.15078)">
+    <g
+       id="g180"
+       inkscape:label="BACKGROUND PATTERN DARK">
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect52"
+         width="20"
+         height="19.999998"
+         x="-52.815838"
+         y="24.825306" />
+      <path
+         d="M -50.815606,24.82531 A 2,2 0 0 1 -52.816,26.82519 v 16.00005 a 2,2 0 0 1 2.000394,2.0004 h 15.999541 a 2,2 0 0 1 2.000394,-2.0004 V 26.82519 a 2,2 0 0 1 -2.000394,-1.99988 z m 7.999512,8.00003 a 2,2 0 0 1 2.000395,1.99988 2,2 0 0 1 -2.000395,2.00039 2,2 0 0 1 -1.999878,-2.00039 2,2 0 0 1 1.999878,-1.99988 z"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#111111;stroke-width:0.1"
+         id="path52" />
+    </g>
+    <g
+       id="g179"
+       inkscape:label="BACKGROUND PATTERN LIGHT">
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect53"
+         width="20"
+         height="19.999998"
+         x="-52.863331"
+         y="49.612843" />
+      <path
+         d="m -50.863239,49.612935 a 2,2 0 0 1 -2.000394,1.99988 v 16.00005 a 2,2 0 0 1 2.000394,2.0004 h 15.999541 a 2,2 0 0 1 2.000394,-2.0004 v -16.00005 a 2,2 0 0 1 -2.000394,-1.99988 z m 7.999512,8.00003 a 2,2 0 0 1 2.000395,1.99988 2,2 0 0 1 -2.000395,2.00039 2,2 0 0 1 -1.999878,-2.00039 2,2 0 0 1 1.999878,-1.99988 z"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+         id="path52-4" />
+    </g>
+    <g
+       id="g33"
+       transform="translate(-211.0598,8.2434706)"
+       inkscape:label="CHURCH ICON">
+      <path
+         d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+         id="path33" />
+      <path
+         d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+         id="path32" />
+      <path
+         d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+         id="path31" />
+    </g>
+    <g
+       id="g49"
+       inkscape:label="LOADING 1 LIGHT"
+       transform="translate(8.7569177e-7)">
+      <g
+         id="g47">
+        <rect
+           style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect46"
+           width="77.331909"
+           height="64.886536"
+           x="0"
+           y="-158.17267" />
+      </g>
+      <g
+         id="g11-5"
+         transform="matrix(0.68969905,0,0,0.68969905,17.579032,-83.265296)"
+         style="fill:#4d4d4d">
+        <g
+           id="g46"
+           transform="translate(-0.11843711)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-dasharray:none;stroke-opacity:1"
+             x="23.094807"
+             y="-42.244892"
+             id="text3-4"><tspan
+               sodipodi:role="line"
+               id="tspan3-9"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-opacity:1"
+               x="23.094807"
+               y="-42.244892">Loading Assets...</tspan></text>
+          <path
+             d="m 20.430164,-44.358595 a 1.1803381,1.1803379 0 0 0 -1.180388,1.180388 1.1803381,1.1803379 0 0 0 1.180388,1.180388 1.1803381,1.1803379 0 0 0 0.440876,-0.08857 l -0.17713,-0.438436 a 0.70820282,0.70820282 0 0 1 -0.263746,0.05489 0.70820282,0.70820282 0 0 1 -0.708281,-0.708281 0.70820282,0.70820282 0 0 1 0.708281,-0.708283 0.70820282,0.70820282 0 0 1 0.708281,0.708283 h 0.472107 a 1.1803381,1.1803379 0 0 0 -1.180388,-1.180381 z"
+             style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+             id="path10-0" />
+        </g>
+      </g>
+      <g
+         id="g48">
+        <g
+           id="g45"
+           style="stroke:none;stroke-opacity:1"
+           transform="translate(6.5582799,-83.505286)">
+          <text
+             xml:space="preserve"
+             style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             x="14.100494"
+             y="-50.62907"
+             id="text1-0"><tspan
+               sodipodi:role="line"
+               id="tspan1-4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="14.100494"
+               y="-50.62907">OPEN</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             x="14.144953"
+             y="-41.219795"
+             id="text4-0"><tspan
+               sodipodi:role="line"
+               id="tspan4-2"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="14.144953"
+               y="-41.219795">CHRD</tspan></text>
+        </g>
+        <g
+           id="g44"
+           transform="translate(6.4020353,-84.5067)">
+          <g
+             id="g43"
+             transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+               x="29.640526"
+               y="-33.193802"
+               id="text25-4"><tspan
+                 sodipodi:role="line"
+                 id="tspan25-4"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                 x="29.640526"
+                 y="-33.193802"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;stroke-width:0.0849387"
+                   id="tspan23-1">CHURCH</tspan></tspan></text>
+            <g
+               id="g33-5-9"
+               transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)">
+              <path
+                 d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                 id="path33-3-0" />
+              <path
+                 d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                 id="path32-5-2" />
+              <path
+                 d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                 id="path31-9-1" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+             x="40.021339"
+             y="-36.595665"
+             id="text38"><tspan
+               sodipodi:role="line"
+               id="tspan38"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="40.021339"
+               y="-36.595665"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#4d4d4d;stroke-width:0.0750238"
+                 id="tspan37">musicians</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+             x="14.256371"
+             y="-36.578873"
+             id="text43"><tspan
+               sodipodi:role="line"
+               id="tspan43"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="14.256371"
+               y="-36.578873"><tspan
+                 style="line-height:0;letter-spacing:-0.0482546px;fill:#4d4d4d;stroke-width:0.0750238"
+                 id="tspan40"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;stroke-width:0.0750238"
+                   id="tspan39"
+                   dx="0.67480463">for all the</tspan></tspan></tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g57"
+       inkscape:label="LOADING 2 LIGHT"
+       transform="translate(8.7569177e-7)">
+      <g
+         id="g49-50"
+         transform="translate(98.803275,0.91257738)">
+        <g
+           id="g47-2"
+           transform="translate(-15.117474,-0.90540122)">
+          <rect
+             style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+             id="rect46-8"
+             width="77.331909"
+             height="64.886536"
+             x="0"
+             y="-158.17267" />
+        </g>
+      </g>
+      <g
+         id="g56"
+         transform="translate(-1.3933096e-6,-3.477048)">
+        <g
+           id="g54"
+           transform="matrix(1.2900264,0,0,1.2900264,72.492256,34.132994)">
+          <g
+             id="g48-5">
+            <g
+               id="g55">
+              <g
+                 id="g45-2"
+                 style="stroke:none;stroke-opacity:1"
+                 transform="matrix(0.52726264,0,0,0.52726264,21.510225,-101.88716)">
+                <g
+                   id="g53"
+                   transform="translate(-17.436705,8.4049566)">
+                  <text
+                     xml:space="preserve"
+                     style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                     x="14.004152"
+                     y="-50.62907"
+                     id="text1-0-7"><tspan
+                       sodipodi:role="line"
+                       id="tspan1-4-3"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                       x="14.004152"
+                       y="-50.62907">OPENCHRD</tspan></text>
+                </g>
+              </g>
+              <g
+                 id="g44-9"
+                 transform="matrix(1.0694063,0,0,1.0694063,4.162717,-81.22431)">
+                <g
+                   id="g43-2"
+                   transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)">
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                     x="29.640526"
+                     y="-33.193802"
+                     id="text25-4-3"><tspan
+                       sodipodi:role="line"
+                       id="tspan25-4-59"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                       x="29.640526"
+                       y="-33.193802"><tspan
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;stroke-width:0.0849387"
+                         id="tspan23-1-7">CHURCH</tspan></tspan></text>
+                  <g
+                     id="g33-5-9-2"
+                     transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)">
+                    <path
+                       d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                       style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                       id="path33-3-0-4" />
+                    <path
+                       d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                       style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                       id="path32-5-2-2" />
+                    <path
+                       d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                       style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.1"
+                       id="path31-9-1-4" />
+                  </g>
+                </g>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                   x="40.021339"
+                   y="-36.595665"
+                   id="text38-6"><tspan
+                     sodipodi:role="line"
+                     id="tspan38-7"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                     x="40.021339"
+                     y="-36.595665"><tspan
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#4d4d4d;stroke-width:0.0750238"
+                       id="tspan37-5">musicians</tspan></tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                   x="14.256371"
+                   y="-36.578873"
+                   id="text43-9"><tspan
+                     sodipodi:role="line"
+                     id="tspan43-2"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                     x="14.256371"
+                     y="-36.578873"><tspan
+                       style="line-height:0;letter-spacing:-0.0482546px;fill:#4d4d4d;stroke-width:0.0750238"
+                       id="tspan40-6"><tspan
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;stroke-width:0.0750238"
+                         id="tspan39-2"
+                         dx="0.67480463">for all the</tspan></tspan></tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g11-5-7"
+           transform="matrix(0.68969905,0,0,0.68969905,101.28544,-84.675326)"
+           style="fill:#4d4d4d">
+          <g
+             id="g46-5"
+             transform="translate(-0.11843711)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-dasharray:none;stroke-opacity:1"
+               x="23.094807"
+               y="-42.244892"
+               id="text3-4-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan3-9-7"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-opacity:1"
+                 x="23.094807"
+                 y="-42.244892">Loading Assets...</tspan></text>
+            <path
+               d="m 20.430164,-44.358595 a 1.1803381,1.1803379 0 0 0 -1.180388,1.180388 1.1803381,1.1803379 0 0 0 1.180388,1.180388 1.1803381,1.1803379 0 0 0 0.440876,-0.08857 l -0.17713,-0.438436 a 0.70820282,0.70820282 0 0 1 -0.263746,0.05489 0.70820282,0.70820282 0 0 1 -0.708281,-0.708281 0.70820282,0.70820282 0 0 1 0.708281,-0.708283 0.70820282,0.70820282 0 0 1 0.708281,0.708283 h 0.472107 a 1.1803381,1.1803379 0 0 0 -1.180388,-1.180381 z"
+               style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+               id="path10-0-7" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g49-5"
+       transform="translate(8.7569177e-7,70.506189)"
+       inkscape:label="LOADING 1 DARK">
+      <g
+         id="g11-5-3"
+         transform="matrix(0.68969905,0,0,0.68969905,17.579032,-83.265296)"
+         style="fill:#666666">
+        <g
+           id="g46-2"
+           transform="translate(-0.11843711)"
+           style="fill:#666666" />
+      </g>
+      <g
+         id="g50">
+        <g
+           id="g47-8"
+           style="fill:#111111;fill-opacity:1">
+          <rect
+             style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+             id="rect46-2"
+             width="77.331909"
+             height="64.886536"
+             x="0"
+             y="-158.17267" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-dasharray:none;stroke-opacity:1"
+           x="23.094807"
+           y="-42.244892"
+           id="text3-4-6"
+           transform="matrix(0.68969906,0,0,0.68969906,17.497346,-83.265296)"><tspan
+             sodipodi:role="line"
+             id="tspan3-9-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-opacity:1"
+             x="23.094807"
+             y="-42.244892">Loading Assets...</tspan></text>
+        <path
+           d="m 20.430164,-44.358595 a 1.1803381,1.1803379 0 0 0 -1.180388,1.180388 1.1803381,1.1803379 0 0 0 1.180388,1.180388 1.1803381,1.1803379 0 0 0 0.440876,-0.08857 l -0.17713,-0.438436 a 0.70820282,0.70820282 0 0 1 -0.263746,0.05489 0.70820282,0.70820282 0 0 1 -0.708281,-0.708281 0.70820282,0.70820282 0 0 1 0.708281,-0.708283 0.70820282,0.70820282 0 0 1 0.708281,0.708283 h 0.472107 a 1.1803381,1.1803379 0 0 0 -1.180388,-1.180381 z"
+           style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+           id="path10-0-6"
+           transform="matrix(0.68969906,0,0,0.68969906,17.497346,-83.265296)" />
+        <g
+           id="g48-3">
+          <g
+             id="g45-4"
+             style="fill:#3296ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+             transform="translate(6.5582799,-83.505286)">
+            <text
+               xml:space="preserve"
+               style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="14.100494"
+               y="-50.62907"
+               id="text1-0-4"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-4-2"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.100494"
+                 y="-50.62907">OPEN</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="14.144953"
+               y="-41.421482"
+               id="text4-0-9"><tspan
+                 sodipodi:role="line"
+                 id="tspan4-2-2"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.144953"
+                 y="-41.421482">CHRD</tspan></text>
+          </g>
+          <g
+             id="g44-8"
+             transform="translate(6.4020353,-84.5067)">
+            <g
+               id="g43-9"
+               transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)"
+               style="fill:#ffffff">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                 x="29.640526"
+                 y="-33.193802"
+                 id="text25-4-2"><tspan
+                   sodipodi:role="line"
+                   id="tspan25-4-5"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                   x="29.640526"
+                   y="-33.193802"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;fill:#ffffff;stroke-width:0.0849387"
+                     id="tspan23-1-6">CHURCH</tspan></tspan></text>
+              <g
+                 id="g33-5-9-7"
+                 transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)"
+                 style="fill:#ffffff">
+                <path
+                   d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                   id="path33-3-0-2" />
+                <path
+                   d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                   id="path32-5-2-8" />
+                <path
+                   d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                   id="path31-9-1-0" />
+              </g>
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="40.021339"
+               y="-36.595665"
+               id="text38-0"><tspan
+                 sodipodi:role="line"
+                 id="tspan38-8"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                 x="40.021339"
+                 y="-36.595665"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#999999;stroke-width:0.0750238"
+                   id="tspan37-2">musicians</tspan></tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="14.256371"
+               y="-36.578873"
+               id="text43-5"><tspan
+                 sodipodi:role="line"
+                 id="tspan43-8"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.256371"
+                 y="-36.578873"><tspan
+                   style="line-height:0;letter-spacing:-0.0482546px;fill:#999999;stroke-width:0.0750238"
+                   id="tspan40-0"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;fill:#999999;stroke-width:0.0750238"
+                     id="tspan39-3"
+                     dx="0.67480463">for all the</tspan></tspan></tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g57-8"
+       transform="translate(0.02060364,70.499474)"
+       inkscape:label="LOADING 2 DARK">
+      <g
+         id="g49-50-6"
+         transform="translate(98.803275,0.91257738)">
+        <g
+           id="g47-2-3"
+           transform="translate(-15.117474,-0.90540122)">
+          <rect
+             style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+             id="rect46-8-0"
+             width="77.331909"
+             height="64.886536"
+             x="0"
+             y="-158.17267" />
+        </g>
+      </g>
+      <g
+         id="g56-9"
+         transform="translate(-1.3933096e-6,-3.477048)">
+        <g
+           id="g54-6"
+           transform="matrix(1.2900264,0,0,1.2900264,72.492256,34.132994)">
+          <g
+             id="g48-5-2">
+            <g
+               id="g55-8">
+              <g
+                 id="g45-2-4"
+                 style="fill:#3296ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+                 transform="matrix(0.52726264,0,0,0.52726264,21.510225,-101.88716)">
+                <g
+                   id="g53-6"
+                   transform="translate(-17.436705,8.4049566)"
+                   style="fill:#3296ff;fill-opacity:1">
+                  <text
+                     xml:space="preserve"
+                     style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                     x="13.973862"
+                     y="-50.62907"
+                     id="text1-0-7-6"><tspan
+                       sodipodi:role="line"
+                       id="tspan1-4-3-2"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                       x="13.973862"
+                       y="-50.62907">OPENCHRD</tspan></text>
+                </g>
+              </g>
+              <g
+                 id="g44-9-7"
+                 transform="matrix(1.0694063,0,0,1.0694063,4.1467462,-81.22431)">
+                <g
+                   id="g43-2-1"
+                   transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)"
+                   style="fill:#ffffff">
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                     x="29.640526"
+                     y="-33.193802"
+                     id="text25-4-3-8"><tspan
+                       sodipodi:role="line"
+                       id="tspan25-4-59-4"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                       x="29.640526"
+                       y="-33.193802"><tspan
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;fill:#ffffff;stroke-width:0.0849387"
+                         id="tspan23-1-7-0">CHURCH</tspan></tspan></text>
+                  <g
+                     id="g33-5-9-2-7"
+                     transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)"
+                     style="fill:#ffffff">
+                    <path
+                       d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                       style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                       id="path33-3-0-4-7" />
+                    <path
+                       d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                       style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                       id="path32-5-2-2-1" />
+                    <path
+                       d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                       style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                       id="path31-9-1-4-2" />
+                  </g>
+                </g>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                   x="40.021339"
+                   y="-36.595665"
+                   id="text38-6-2"><tspan
+                     sodipodi:role="line"
+                     id="tspan38-7-7"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                     x="40.021339"
+                     y="-36.595665"><tspan
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#999999;fill-opacity:1;stroke-width:0.0750238"
+                       id="tspan37-5-4">musicians</tspan></tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                   x="14.256371"
+                   y="-36.578873"
+                   id="text43-9-7"><tspan
+                     sodipodi:role="line"
+                     id="tspan43-2-5"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+                     x="14.256371"
+                     y="-36.578873"><tspan
+                       style="line-height:0;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke-width:0.0750238"
+                       id="tspan40-6-7"><tspan
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;fill:#999999;fill-opacity:1;stroke-width:0.0750238"
+                         id="tspan39-2-3"
+                         dx="0.67480463">for all the</tspan></tspan></tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g11-5-7-8"
+           transform="matrix(0.68969905,0,0,0.68969905,101.28544,-84.675326)"
+           style="fill:#4d4d4d">
+          <g
+             id="g46-5-9"
+             transform="translate(-0.11843711)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-dasharray:none;stroke-opacity:1"
+               x="23.094807"
+               y="-42.244892"
+               id="text3-4-8-3"><tspan
+                 sodipodi:role="line"
+                 id="tspan3-9-7-7"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.55609px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0685747;stroke-opacity:1"
+                 x="23.094807"
+                 y="-42.244892">Loading Assets...</tspan></text>
+            <path
+               d="m 20.430164,-44.358595 a 1.1803381,1.1803379 0 0 0 -1.180388,1.180388 1.1803381,1.1803379 0 0 0 1.180388,1.180388 1.1803381,1.1803379 0 0 0 0.440876,-0.08857 l -0.17713,-0.438436 a 0.70820282,0.70820282 0 0 1 -0.263746,0.05489 0.70820282,0.70820282 0 0 1 -0.708281,-0.708281 0.70820282,0.70820282 0 0 1 0.708281,-0.708283 0.70820282,0.70820282 0 0 1 0.708281,0.708283 h 0.472107 a 1.1803381,1.1803379 0 0 0 -1.180388,-1.180381 z"
+               style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+               id="path10-0-7-1" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g87"
+       transform="translate(180.72132,-119.82883)"
+       inkscape:label="PHILOSOPHY LIGHT">
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         id="rect102"
+         width="210"
+         height="297"
+         x="181.36055"
+         y="-280.32178"
+         transform="translate(-180.72131,241.99981)" />
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 700;display:inline;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:2.61284;stroke-dasharray:none;stroke-opacity:1"
+         id="rect78"
+         width="210"
+         height="36.508541"
+         x="-2.7854638"
+         y="130.53516"
+         transform="translate(3.4247093,91.634336)" />
+      <g
+         id="g72"
+         transform="translate(11.942788,29.540327)"
+         style="display:inline">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5831px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#47ff9e;fill-opacity:1;stroke:#000000;stroke-width:0.391233;stroke-dasharray:none;stroke-opacity:1"
+           x="15.268916"
+           y="24.774858"
+           id="text2-0"><tspan
+             sodipodi:role="line"
+             style="fill:#47ff9e;fill-opacity:1;stroke-width:0.391235"
+             x="15.268916"
+             y="24.774858"
+             id="tspan5-3">free forever</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:4.8409px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+           x="15.104076"
+           y="8.6866083"
+           id="text1-5"><tspan
+             sodipodi:role="line"
+             id="tspan1-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.8409px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+             x="15.104076"
+             y="8.6866083">OPENCHRD IS</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76293px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:175.979;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           x="15.015882"
+           y="65.321785"
+           id="text57"
+           transform="matrix(0.7849654,0,0,0.7849654,3.2631232,-13.29788)"><tspan
+             x="15.015882"
+             y="65.321785"
+             id="tspan73"><tspan
+               style="font-size:7.05556px"
+               id="tspan7">OpenChord is a non-profit project authored by people </tspan></tspan><tspan
+             x="15.015882"
+             y="75.905127"
+             id="tspan77"><tspan
+               style="font-size:7.05556px"
+               id="tspan74">not only passionate for developing, but also for </tspan><tspan
+               style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+               id="tspan75">Jesus</tspan><tspan
+               style="font-size:7.05556px"
+               id="tspan76">.
+</tspan></tspan><tspan
+             x="15.015882"
+             y="86.488471"
+             id="tspan83"><tspan
+               style="font-size:7.05556px"
+               id="tspan78">It is and will </tspan><tspan
+               style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+               id="tspan79">always be completely free to use</tspan><tspan
+               style="font-size:7.05556px"
+               id="tspan82">.</tspan></tspan></text>
+      </g>
+      <g
+         id="g62"
+         transform="translate(12.294372,55.866019)">
+        <g
+           id="g65"
+           transform="translate(0,3.0501771)">
+          <g
+             id="g71">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5831px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#47ff9e;fill-opacity:1;stroke:#000000;stroke-width:0.391233;stroke-dasharray:none;stroke-opacity:1"
+               x="15.060572"
+               y="58.027473"
+               id="text2-0-5"><tspan
+                 sodipodi:role="line"
+                 style="fill:#47ff9e;fill-opacity:1;stroke-width:0.391235"
+                 x="15.060572"
+                 y="58.027473"
+                 id="tspan5-3-2">for the church</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:4.8409px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+               x="14.817149"
+               y="42.07711"
+               id="text1-5-2"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-9-0"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.8409px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.817149"
+                 y="42.07711">OPENCHRD IS</tspan></text>
+            <g
+               id="g70"
+               transform="translate(-0.05601591,9.1531309)">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76293px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:180.657;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+                 x="15.015882"
+                 y="65.321785"
+                 id="text57-8"
+                 transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
+                   x="15.015882"
+                   y="65.321785"
+                   id="tspan91"><tspan
+                     style="font-size:7.05556px"
+                     id="tspan84">OpenChord is designed with church service in mind.
+</tspan></tspan><tspan
+                   x="15.015882"
+                   y="75.905127"
+                   id="tspan97"><tspan
+                     style="font-size:7.05556px"
+                     id="tspan92">It is optimized for</tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+                     id="tspan93"> importing SongSelect® sheets</tspan><tspan
+                     style="font-size:7.05556px"
+                     id="tspan95"> </tspan></tspan><tspan
+                   x="15.015882"
+                   y="86.488471"
+                   id="tspan101"><tspan
+                     style="font-size:7.05556px"
+                     id="tspan98">specifically and has </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+                     id="tspan99">lots of other related features</tspan><tspan
+                     style="font-size:7.05556px"
+                     id="tspan100"> as well. </tspan></tspan></text>
+              <rect
+                 style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.0642387;stroke-dasharray:none;stroke-opacity:1"
+                 id="rect62"
+                 width="72.774986"
+                 height="0.50876331"
+                 x="64.079529"
+                 y="79.417145" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g62-2"
+         transform="translate(12.294373,118.50957)">
+        <g
+           id="g65-2"
+           transform="translate(0,3.0501771)">
+          <g
+             id="g71-4">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5831px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#47ff9e;fill-opacity:1;stroke:#000000;stroke-width:0.391233;stroke-dasharray:none;stroke-opacity:1"
+               x="15.060572"
+               y="58.027473"
+               id="text2-0-5-9"><tspan
+                 sodipodi:role="line"
+                 style="fill:#47ff9e;fill-opacity:1;stroke-width:0.391235"
+                 x="15.060572"
+                 y="58.027473"
+                 id="tspan5-3-2-3">crossplatform</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:4.8409px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+               x="14.817149"
+               y="42.07711"
+               id="text1-5-2-7"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-9-0-7"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.8409px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.817149"
+                 y="42.07711">OPENCHRD IS</tspan></text>
+            <g
+               id="g70-5"
+               transform="translate(-0.05601591,9.1531309)">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76293px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:180.657;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+                 x="15.015882"
+                 y="65.321785"
+                 id="text57-8-4"
+                 transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
+                   x="15.015882"
+                   y="65.321785"
+                   id="tspan103"><tspan
+                     style="font-size:7.05556px"
+                     id="tspan102">OpenChord is crossplatform by-design, which means you </tspan></tspan><tspan
+                   x="15.015882"
+                   y="75.905127"
+                   id="tspan108"><tspan
+                     style="font-size:7.05556px"
+                     id="tspan104">can not only use it </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+                     id="tspan105">on your iPad®</tspan><tspan
+                     style="font-size:7.05556px"
+                     id="tspan106"> but also your </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+                     id="tspan107">Windows </tspan></tspan><tspan
+                   x="15.015882"
+                   y="86.488471"
+                   id="tspan113"><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+                     id="tspan109">PC</tspan><tspan
+                     style="font-size:7.05556px"
+                     id="tspan110"> and your </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000"
+                     id="tspan111">Android Tablet</tspan><tspan
+                     style="font-size:7.05556px"
+                     id="tspan112">. </tspan></tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.80912px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#b7b9ff;fill-opacity:1;stroke:none;stroke-width:0.163326;stroke-dasharray:none;stroke-opacity:1"
+         x="23.377569"
+         y="160.93169"
+         id="text79"
+         transform="translate(3.4247093,91.634336)"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.80912px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#b7b9ff;fill-opacity:1;stroke-width:0.163327"
+           x="23.377569"
+           y="160.93169"
+           id="tspan81">© 2025 - The OpenChord Project Authors - All Rights Reserved - SongSelect® is a registered trademark of Christian Copyright Licensing International. - iPad® is a registered trademark of Apple Inc. </tspan></text>
+      <g
+         id="g86"
+         transform="translate(2.9699986,98.450747)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+           x="23.911798"
+           y="143.49823"
+           id="text78"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.5"
+             x="23.911798"
+             y="143.49823"
+             id="tspan80">Try <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500"
+   id="tspan85">OPENCHRD</tspan> out <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700"
+   id="tspan86">today</tspan> at lbirkert.com/openchord</tspan></text>
+        <rect
+           style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.324298;stroke-dasharray:none;stroke-opacity:1"
+           id="rect85"
+           width="57.069077"
+           height="0.57438689"
+           x="106.12254"
+           y="144.10052" />
+      </g>
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.114543;stroke-dasharray:none;stroke-opacity:1"
+         id="rect64"
+         width="210"
+         height="59.612843"
+         x="0.63924563"
+         y="-38.321949" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2909px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.72481;stroke-dasharray:none;stroke-opacity:1"
+         x="28.81613"
+         y="-4.0319514"
+         id="text64"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2909px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.72481;stroke-dasharray:none;stroke-opacity:1"
+           x="28.81613"
+           y="-4.0319514"
+           id="tspan66"><tspan
+   id="tspan69"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2909px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.72481;stroke-dasharray:none">PHILO</tspan>SOPHY</tspan></text>
+      <path
+         style="font-variation-settings:'opsz' 32, 'wght' 700;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         d="M 0.63924563,21.290893 40.422871,11.290895 59.398491,21.290893 108.72391,12.89024 162.90102,21.290893 187.42896,8.0385574 210.63925,21.290893 Z"
+         id="path70" />
+    </g>
+    <g
+       id="g87-2"
+       transform="translate(421.67288,-119.82883)"
+       inkscape:label="PHILOSOPHY DARK">
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         id="rect87"
+         width="210"
+         height="297"
+         x="241.59081"
+         y="-38.321949"
+         transform="translate(-240.95156)" />
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 700;display:inline;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:2.61284;stroke-dasharray:none;stroke-opacity:1"
+         id="rect78-2"
+         width="210"
+         height="36.508541"
+         x="-2.7854638"
+         y="130.53516"
+         transform="translate(3.4247093,91.634336)" />
+      <g
+         id="g72-8"
+         transform="translate(11.942788,29.540327)"
+         style="display:inline">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5831px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#47ff9e;fill-opacity:1;stroke:none;stroke-width:0.391233;stroke-dasharray:none;stroke-opacity:1"
+           x="15.268916"
+           y="24.774858"
+           id="text2-0-56"><tspan
+             sodipodi:role="line"
+             style="fill:#47ff9e;fill-opacity:1;stroke-width:0.391235;stroke:none"
+             x="15.268916"
+             y="24.774858"
+             id="tspan5-3-5">free forever</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:4.8409px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+           x="15.104076"
+           y="8.6866083"
+           id="text1-5-24"><tspan
+             sodipodi:role="line"
+             id="tspan1-9-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.8409px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+             x="15.104076"
+             y="8.6866083">OPENCHRD IS</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76293px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:175.979;display:inline;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           x="15.015882"
+           y="65.321785"
+           id="text57-4"
+           transform="matrix(0.7849654,0,0,0.7849654,3.2631232,-13.29788)"><tspan
+             x="15.015882"
+             y="65.321785"
+             id="tspan115"><tspan
+               style="font-size:7.05556px"
+               id="tspan114">OpenChord is a non-profit project authored by people </tspan></tspan><tspan
+             x="15.015882"
+             y="75.905127"
+             id="tspan119"><tspan
+               style="font-size:7.05556px"
+               id="tspan116">not only passionate for developing, but also for </tspan><tspan
+               style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+               id="tspan117">Jesus</tspan><tspan
+               style="font-size:7.05556px"
+               id="tspan118">.
+</tspan></tspan><tspan
+             x="15.015882"
+             y="86.488471"
+             id="tspan123"><tspan
+               style="font-size:7.05556px"
+               id="tspan120">It is and will </tspan><tspan
+               style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+               id="tspan121">always be completely free to use</tspan><tspan
+               style="font-size:7.05556px"
+               id="tspan122">.</tspan></tspan></text>
+      </g>
+      <g
+         id="g62-3"
+         transform="translate(12.294372,55.866019)">
+        <g
+           id="g65-0"
+           transform="translate(0,3.0501771)">
+          <g
+             id="g71-8">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5831px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#47ff9e;fill-opacity:1;stroke:none;stroke-width:0.391233;stroke-dasharray:none;stroke-opacity:1"
+               x="15.060572"
+               y="58.027473"
+               id="text2-0-5-8"><tspan
+                 sodipodi:role="line"
+                 style="fill:#47ff9e;fill-opacity:1;stroke-width:0.391235;stroke:none"
+                 x="15.060572"
+                 y="58.027473"
+                 id="tspan5-3-2-7">for the church</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:4.8409px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+               x="14.817149"
+               y="42.07711"
+               id="text1-5-2-6"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-9-0-77"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.8409px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.817149"
+                 y="42.07711">OPENCHRD IS</tspan></text>
+            <g
+               id="g70-0"
+               transform="translate(-0.05601591,9.1531309)">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76293px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:180.657;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+                 x="15.015882"
+                 y="65.321785"
+                 id="text57-8-9"
+                 transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
+                   x="15.015882"
+                   y="65.321785"
+                   id="tspan125"><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan124">OpenChord is designed with church service in mind.
+</tspan></tspan><tspan
+                   x="15.015882"
+                   y="75.905127"
+                   id="tspan129"><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan126">It is optimized for</tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+                     id="tspan127"> importing SongSelect® sheets</tspan><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan128"> </tspan></tspan><tspan
+                   x="15.015882"
+                   y="86.488471"
+                   id="tspan133"><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan130">specifically and has </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+                     id="tspan131">lots of other related features</tspan><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan132"> as well. </tspan></tspan></text>
+              <rect
+                 style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.0642387;stroke-dasharray:none;stroke-opacity:1"
+                 id="rect62-3"
+                 width="72.774986"
+                 height="0.50876331"
+                 x="64.079529"
+                 y="79.417145" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g62-2-9"
+         transform="translate(12.294373,118.50957)">
+        <g
+           id="g65-2-6"
+           transform="translate(0,3.0501771)">
+          <g
+             id="g71-4-5">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5831px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#47ff9e;fill-opacity:1;stroke:none;stroke-width:0.391233;stroke-dasharray:none;stroke-opacity:1"
+               x="15.060572"
+               y="58.027473"
+               id="text2-0-5-9-6"><tspan
+                 sodipodi:role="line"
+                 style="fill:#47ff9e;fill-opacity:1;stroke-width:0.391235;stroke:none"
+                 x="15.060572"
+                 y="58.027473"
+                 id="tspan5-3-2-3-4">crossplatform</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:4.8409px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+               x="14.817149"
+               y="42.07711"
+               id="text1-5-2-7-4"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-9-0-7-0"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.8409px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.147024;stroke-dasharray:none;stroke-opacity:1"
+                 x="14.817149"
+                 y="42.07711">OPENCHRD IS</tspan></text>
+            <g
+               id="g70-5-7"
+               transform="translate(-0.05601591,9.1531309)">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76293px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:180.657;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+                 x="15.015882"
+                 y="65.321785"
+                 id="text57-8-4-1"
+                 transform="matrix(0.7849654,0,0,0.7849654,3.0934599,10.801605)"><tspan
+                   x="15.015882"
+                   y="65.321785"
+                   id="tspan135"><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan134">OpenChord is crossplatform by-design, which means you </tspan></tspan><tspan
+                   x="15.015882"
+                   y="75.905127"
+                   id="tspan140"><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan136">can not only use it </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+                     id="tspan137">on your iPad®</tspan><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan138"> but also your </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+                     id="tspan139">Windows </tspan></tspan><tspan
+                   x="15.015882"
+                   y="86.488471"
+                   id="tspan145"><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+                     id="tspan141">PC</tspan><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan142"> and your </tspan><tspan
+                     style="font-size:7.05556px;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff"
+                     id="tspan143">Android Tablet</tspan><tspan
+                     style="font-size:7.05556px;fill:#999999"
+                     id="tspan144">. </tspan></tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.80912px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0058b5;fill-opacity:1;stroke:none;stroke-width:0.163326;stroke-dasharray:none;stroke-opacity:1"
+         x="23.377569"
+         y="160.93169"
+         id="text79-6"
+         transform="translate(3.4247093,91.634336)"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.80912px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#0058b5;fill-opacity:1;stroke-width:0.163327"
+           x="23.377569"
+           y="160.93169"
+           id="tspan81-0">© 2025 - The OpenChord Project Authors - All Rights Reserved - SongSelect® is a registered trademark of Christian Copyright Licensing International. - iPad® is a registered trademark of Apple Inc. </tspan></text>
+      <g
+         id="g86-9"
+         transform="translate(2.9699986,98.450747)"
+         style="fill:#111111;fill-opacity:1">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+           x="23.911798"
+           y="143.49823"
+           id="text78-9"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.5"
+             x="23.911798"
+             y="143.49823"
+             id="tspan80-4">Try <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#111111;fill-opacity:1"
+   id="tspan85-8">OPENCHRD</tspan> out <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#111111;fill-opacity:1"
+   id="tspan86-7">today</tspan> at lbirkert.com/openchord</tspan></text>
+        <rect
+           style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.32456;stroke-dasharray:none;stroke-opacity:1"
+           id="rect85-0"
+           width="56.970299"
+           height="0.57631034"
+           x="106.22132"
+           y="144.03625" />
+      </g>
+      <rect
+         style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.114543;stroke-dasharray:none;stroke-opacity:1"
+         id="rect64-6"
+         width="210"
+         height="59.612843"
+         x="0.63924563"
+         y="-38.321949" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2909px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72481;stroke-dasharray:none;stroke-opacity:1"
+         x="28.81613"
+         y="-4.0319514"
+         id="text64-4"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2909px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.72481;stroke-dasharray:none;stroke-opacity:1"
+           x="28.81613"
+           y="-4.0319514"
+           id="tspan66-2"><tspan
+             id="tspan69-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2909px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.72481;stroke-dasharray:none">PHILO</tspan><tspan
+             style="fill:none;stroke:#111111;stroke-opacity:1"
+             id="tspan87">SOPHY</tspan></tspan></text>
+      <path
+         style="font-variation-settings:'opsz' 32, 'wght' 700;fill:none;fill-opacity:1;stroke:#111111;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         d="M 0.63924563,21.290893 40.422871,11.290895 59.398491,21.290893 108.72391,12.89024 162.90102,21.290893 187.42896,8.0385574 210.63925,21.290893 Z"
+         id="path70-8" />
+      <g
+         id="g63"
+         transform="translate(-237.52685,91.634336)">
+        <g
+           id="g60"
+           transform="translate(-0.08352472,-57.079925)"
+           style="display:none"
+           inkscape:label="helpers">
+          <rect
+             style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+             id="rect72"
+             width="26.346764"
+             height="212.19827"
+             x="-2.7628829"
+             y="-0.2319084" />
+          <rect
+             style="font-variation-settings:'opsz' 32, 'wght' 700;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.342384;stroke-dasharray:none;stroke-opacity:1"
+             id="rect72-9"
+             width="12.354296"
+             height="212.19827"
+             x="-12.646814"
+             y="-207.29492"
+             transform="matrix(-2.4811437e-4,0.99999997,-1,-5.4554859e-5,0,0)" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#rect72-9"
+             id="use73"
+             transform="translate(0.99091723,62.758091)" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#use73"
+             id="use74"
+             transform="translate(1.6515287,62.427785)" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#use74"
+             id="use78"
+             transform="translate(-0.31515715,62.716273)" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g102"
+       inkscape:label="LOGO DARK">
+      <path
+         id="rect99"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.499999;fill:#111111;fill-opacity:1"
+         d="m 492.48608,-38.321941 h 60 a 20,20 45 0 1 20,20 v 60 a 20,20 135 0 1 -20,20 l -60,0 a 20,20 45 0 1 -20,-20 v -60 a 20,20 135 0 1 20,-20 z"
+         inkscape:path-effect="#path-effect100"
+         inkscape:original-d="m 472.48608,-38.321941 h 100 v 100 h -100 z"
+         transform="translate(180.72132,-119.82883)" />
+      <g
+         id="g48-3-0"
+         transform="matrix(2.2368145,0,0,2.2368145,617.9949,185.51171)">
+        <g
+           id="g45-4-4"
+           style="fill:#3296ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+           transform="translate(6.5582794,-83.505286)">
+          <text
+             xml:space="preserve"
+             style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             x="13.530016"
+             y="-50.62907"
+             id="text1-0-4-6"><tspan
+               sodipodi:role="line"
+               id="tspan1-4-2-9"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="13.530016"
+               y="-50.62907">OPEN</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             x="13.574473"
+             y="-41.586212"
+             id="text4-0-9-6"><tspan
+               sodipodi:role="line"
+               id="tspan4-2-2-4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3296ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="13.574473"
+               y="-41.586212">CHRD</tspan></text>
+        </g>
+        <g
+           id="g44-8-2"
+           transform="translate(5.8315566,-84.5067)">
+          <g
+             id="g43-9-7"
+             transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)"
+             style="fill:#ffffff">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+               x="29.640526"
+               y="-33.193802"
+               id="text25-4-2-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan25-4-5-2"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                 x="29.640526"
+                 y="-33.193802"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;fill:#ffffff;stroke-width:0.0849387"
+                   id="tspan23-1-6-7">CHURCH</tspan></tspan></text>
+            <g
+               id="g33-5-9-7-4"
+               transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)"
+               style="fill:#ffffff">
+              <path
+                 d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                 id="path33-3-0-2-4" />
+              <path
+                 d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                 id="path32-5-2-8-6" />
+              <path
+                 d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;stroke-width:0.1"
+                 id="path31-9-1-0-7" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+             x="40.021339"
+             y="-36.595665"
+             id="text38-0-7"><tspan
+               sodipodi:role="line"
+               id="tspan38-8-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="40.021339"
+               y="-36.595665"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#999999;stroke-width:0.0750238"
+                 id="tspan37-2-2">musicians</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+             x="14.256371"
+             y="-36.578873"
+             id="text43-5-0"><tspan
+               sodipodi:role="line"
+               id="tspan43-8-4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="14.256371"
+               y="-36.578873"><tspan
+                 style="line-height:0;letter-spacing:-0.0482546px;fill:#999999;stroke-width:0.0750238"
+                 id="tspan40-0-7"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;fill:#999999;stroke-width:0.0750238"
+                   id="tspan39-3-6"
+                   dx="0.67480463">for all the</tspan></tspan></tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g48-3-0-0"
+       transform="matrix(2.2368145,0,0,2.2368145,617.9949,307.68268)"
+       inkscape:label="LOGO LIGHT">
+      <path
+         id="rect99-2"
+         style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke-width:0.499999"
+         d="m 492.48608,-38.321941 h 60 a 20,20 45 0 1 20,20 v 60 a 20,20 135 0 1 -20,20 l -60,0 a 20,20 45 0 1 -20,-20 v -60 a 20,20 135 0 1 20,-20 z"
+         inkscape:path-effect="#path-effect100-2"
+         inkscape:original-d="m 472.48608,-38.321941 h 100 v 100 h -100 z"
+         transform="matrix(0.44706435,0,0,0.44706435,-195.48942,-136.50686)" />
+      <g
+         id="g103">
+        <g
+           id="g45-4-4-7"
+           style="fill:#0064ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+           transform="translate(6.5582799,-83.505286)">
+          <text
+             xml:space="preserve"
+             style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             x="13.530016"
+             y="-50.62907"
+             id="text1-0-4-6-4"><tspan
+               sodipodi:role="line"
+               id="tspan1-4-2-9-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="13.530016"
+               y="-50.62907">OPEN</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:9.87777px;font-family:Oi;-inkscape-font-specification:'Oi, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             x="13.574473"
+             y="-41.586212"
+             id="text4-0-9-6-2"><tspan
+               sodipodi:role="line"
+               id="tspan4-2-2-4-4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0064ff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+               x="13.574473"
+               y="-41.586212">CHRD</tspan></text>
+        </g>
+        <g
+           id="g44-8-2-7"
+           transform="translate(5.8315566,-84.5067)">
+          <g
+             id="g43-9-7-6"
+             transform="matrix(0.88326996,0,0,0.88326996,0.9715838,-7.2558856)"
+             style="fill:#000000;fill-opacity:1">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0546318px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+               x="29.640526"
+               y="-33.193802"
+               id="text25-4-2-8-6"><tspan
+                 sodipodi:role="line"
+                 id="tspan25-4-5-2-2"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0546318px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0849387;stroke-dasharray:none;stroke-opacity:1"
+                 x="29.640526"
+                 y="-33.193802"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.56704px;line-height:0;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.0849387"
+                   id="tspan23-1-6-7-6">CHURCH</tspan></tspan></text>
+            <g
+               id="g33-5-9-7-4-6"
+               transform="matrix(0.11409706,0,0,0.11409706,11.597091,-37.342039)"
+               style="fill:#000000;fill-opacity:1">
+              <path
+                 d="m 148.44156,26.581629 v 10.000423 h 5.00021 v -5.000211 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#000000;fill-opacity:1;stroke-width:0.1"
+                 id="path33-3-0-2-4-8" />
+              <path
+                 d="m 138.44165,26.581629 -4.99969,5.000212 v 5.000211 h 4.99969 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#000000;fill-opacity:1;stroke-width:0.1"
+                 id="path32-5-2-8-6-6" />
+              <path
+                 d="m 142.44193,13.081678 v 2.000394 h -2.0004 v 1.999878 h 2.0004 v 0.749825 l -3.00034,3.750159 v 15.000118 h 8.00003 V 21.581934 l -2.99981,-3.750159 V 17.08195 h 1.99987 v -1.999878 h -1.99987 v -2.000394 z m 0.99994,7.500317 1.99987,1.999878 v 2.999817 h -4.00027 v -2.999817 z"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#000000;fill-opacity:1;stroke-width:0.1"
+                 id="path31-9-1-0-7-4" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+             x="40.021339"
+             y="-36.595665"
+             id="text38-0-7-9"><tspan
+               sodipodi:role="line"
+               id="tspan38-8-1-4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="40.021339"
+               y="-36.595665"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:-0.0584246px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.0750238"
+                 id="tspan37-2-2-8">musicians</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:-0.0482546px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+             x="14.256371"
+             y="-36.578873"
+             id="text43-5-0-4"><tspan
+               sodipodi:role="line"
+               id="tspan43-8-4-8"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;line-height:0;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;letter-spacing:-0.0482546px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0750238;stroke-dasharray:none;stroke-opacity:1"
+               x="14.256371"
+               y="-36.578873"><tspan
+                 style="line-height:0;letter-spacing:-0.0482546px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.0750238"
+                 id="tspan40-0-7-2"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.26739px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;letter-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke-width:0.0750238"
+                   id="tspan39-3-6-6"
+                   dx="0.67480463">for all the</tspan></tspan></tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g90"
+       transform="translate(433.96726,1.7309133)"
+       inkscape:label="BRAND GUIDELINES">
+      <g
+         id="g98"
+         transform="translate(-7.1358268e-6,1.6954082)"
+         inkscape:label="LIGHT">
+        <rect
+           style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.474932;stroke-dasharray:none;stroke-opacity:1"
+           id="rect96-0"
+           width="161.05759"
+           height="75.142357"
+           x="-433.96725"
+           y="-14.861821" />
+        <g
+           id="g97"
+           transform="translate(5.9319862,-6.6823453)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29708px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#009727;fill-opacity:1;stroke:none;stroke-width:0.658775;stroke-dasharray:none;stroke-opacity:1"
+             x="-407.26218"
+             y="3.7754784"
+             id="text88"
+             transform="translate(1.1673583e-6)"><tspan
+               sodipodi:role="line"
+               id="tspan88"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29708px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000;stroke-width:0.658776"
+               x="-407.26218"
+               y="3.7754784">BRAND GUIDELINES</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-407.23697"
+             y="13.122203"
+             id="text89"><tspan
+               sodipodi:role="line"
+               id="tspan89"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+               x="-407.23697"
+               y="13.122203"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+                 id="tspan90">Primary Color</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.05289"
+             y="19.916206"
+             id="text89-0"><tspan
+               sodipodi:role="line"
+               id="tspan89-7"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+               x="-408.05289"
+               y="19.916206">Secondary Color</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-407.88959"
+             y="26.710211"
+             id="text89-0-4"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+               x="-407.88959"
+               y="26.710211">Accent Color</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.44025"
+             y="45.679947"
+             id="text89-0-4-3"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-9"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+               x="-408.44025"
+               y="45.679947">Body Font</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.44025"
+             y="52.533646"
+             id="text89-0-4-3-4"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-9-6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+               x="-408.44025"
+               y="52.533646">Heading Font</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.44025"
+             y="59.420982"
+             id="text89-0-4-3-4-3"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-9-6-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.444196"
+               x="-408.44025"
+               y="59.420982">Logo Font</tspan></text>
+          <g
+             id="g94"
+             transform="matrix(0.88839281,0,0,0.88839281,-45.521527,5.7119943)">
+            <g
+               id="g95">
+              <path
+                 id="rect93"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;stroke-width:0.499999"
+                 d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                 inkscape:path-effect="#path-effect94"
+                 inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                 sodipodi:nodetypes="ccccc" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                 x="-320.37546"
+                 y="8.3974924"
+                 id="text94"><tspan
+                   sodipodi:role="line"
+                   id="tspan94"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.374084"
+                   x="-320.37546"
+                   y="8.3974924">#000000</tspan></text>
+            </g>
+            <g
+               id="g95-6"
+               transform="translate(-5.5351578e-6,7.6165491)">
+              <path
+                 id="rect93-7"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#4d4d4d;fill-opacity:1;stroke-width:0.499999"
+                 d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                 inkscape:path-effect="#path-effect94-3"
+                 inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                 sodipodi:nodetypes="ccccc" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                 x="-320.73053"
+                 y="8.3974924"
+                 id="text94-3"><tspan
+                   sodipodi:role="line"
+                   id="tspan94-7"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.374084"
+                   x="-320.73053"
+                   y="8.3974924">#4D4D4D</tspan></text>
+              <g
+                 id="g96"
+                 transform="translate(-1.8429687e-6,1.0517806)">
+                <path
+                   id="rect93-7-5"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#0064ff;fill-opacity:1;stroke-width:0.499999"
+                   d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                   inkscape:path-effect="#path-effect94-3-0"
+                   inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                   sodipodi:nodetypes="ccccc"
+                   transform="translate(1.8429687e-6,6.5647685)" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                   x="-320.05374"
+                   y="14.962261"
+                   id="text94-3-1"><tspan
+                     sodipodi:role="line"
+                     id="tspan94-7-6"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.374084"
+                     x="-320.05374"
+                     y="14.962261">#0064FF</tspan></text>
+              </g>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#434343;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+                 x="-407.89169"
+                 y="23.886187"
+                 id="text89-0-4-7"><tspan
+                   sodipodi:role="line"
+                   id="tspan89-7-1-3"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#434343;fill-opacity:1;stroke-width:0.5"
+                   x="-407.89169"
+                   y="23.886187">Background Color</tspan></text>
+              <g
+                 id="g96-5"
+                 transform="translate(9.2506257e-6,8.9183292)">
+                <path
+                   id="rect93-7-5-4"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-opacity:1"
+                   d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                   inkscape:path-effect="#path-effect94-3-0-7"
+                   inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                   sodipodi:nodetypes="ccccc"
+                   transform="translate(1.8429687e-6,6.5647685)" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                   x="-319.53885"
+                   y="14.962261"
+                   id="text94-3-1-0"><tspan
+                     sodipodi:role="line"
+                     id="tspan94-7-6-0"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374084;stroke-opacity:1"
+                     x="-319.53885"
+                     y="14.962261">#FFFFFF</tspan></text>
+              </g>
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-339.20898"
+             y="46.226749"
+             id="text96"><tspan
+               sodipodi:role="line"
+               id="tspan96"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#000000;stroke-width:0.444196"
+               x="-339.20898"
+               y="46.226749">Inter Medium</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-332.13757"
+             y="52.289661"
+             id="text96-7"><tspan
+               sodipodi:role="line"
+               id="tspan96-8"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.444196"
+               x="-332.13757"
+               y="52.289661">Inter Bold</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-356.65134"
+             y="59.925114"
+             id="text96-7-1"><tspan
+               sodipodi:role="line"
+               id="tspan96-8-6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#000000;stroke-width:0.444196"
+               x="-356.65134"
+               y="59.925114">Dela Gothic One</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g98-4"
+         transform="translate(-7.1358268e-6,76.837766)"
+         inkscape:label="DARK">
+        <rect
+           style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.474932;stroke-dasharray:none;stroke-opacity:1"
+           id="rect96-0-2"
+           width="161.05759"
+           height="75.142357"
+           x="-433.96725"
+           y="-14.861821" />
+        <g
+           id="g97-6"
+           transform="translate(5.9319862,-6.6823453)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29708px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.658775;stroke-dasharray:none;stroke-opacity:1"
+             x="-407.26218"
+             y="3.7754784"
+             id="text88-1"
+             transform="translate(1.1673583e-6)"><tspan
+               sodipodi:role="line"
+               id="tspan88-5"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29708px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.658776"
+               x="-407.26218"
+               y="3.7754784">BRAND GUIDELINES</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#99999f;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-407.23697"
+             y="13.122203"
+             id="text89-7"><tspan
+               sodipodi:role="line"
+               id="tspan89-8"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#99999f;fill-opacity:1;stroke-width:0.444196"
+               x="-407.23697"
+               y="13.122203"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#99999f;fill-opacity:1;stroke-width:0.444196"
+                 id="tspan90-1">Primary Color</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#99999f;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.05289"
+             y="19.916206"
+             id="text89-0-5"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-8"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#99999f;fill-opacity:1;stroke-width:0.444196"
+               x="-408.05289"
+               y="19.916206">Secondary Color</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#99999f;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-407.88959"
+             y="26.710211"
+             id="text89-0-4-2"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#99999f;fill-opacity:1;stroke-width:0.444196"
+               x="-407.88959"
+               y="26.710211">Accent Color</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.44025"
+             y="45.679947"
+             id="text89-0-4-3-1"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-9-0"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke-width:0.444196"
+               x="-408.44025"
+               y="45.679947">Body Font</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.44025"
+             y="52.533646"
+             id="text89-0-4-3-4-2"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-9-6-2"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke-width:0.444196"
+               x="-408.44025"
+               y="52.533646">Heading Font</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-408.44025"
+             y="59.420982"
+             id="text89-0-4-3-4-3-9"><tspan
+               sodipodi:role="line"
+               id="tspan89-7-1-9-6-1-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke-width:0.444196"
+               x="-408.44025"
+               y="59.420982">Logo Font</tspan></text>
+          <g
+             id="g94-9"
+             transform="matrix(0.88839281,0,0,0.88839281,-45.521527,5.7119943)">
+            <g
+               id="g95-9">
+              <path
+                 id="rect93-8"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke-width:0.499999"
+                 d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                 inkscape:path-effect="#path-effect94-2"
+                 inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                 sodipodi:nodetypes="ccccc" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                 x="-319.53885"
+                 y="8.3974924"
+                 id="text94-1"><tspan
+                   sodipodi:role="line"
+                   id="tspan94-5"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#111111;fill-opacity:1;stroke-width:0.374084"
+                   x="-319.53885"
+                   y="8.3974924">#FFFFFF</tspan></text>
+            </g>
+            <g
+               id="g95-6-9"
+               transform="translate(-5.5351578e-6,7.6165491)">
+              <path
+                 id="rect93-7-1"
+                 style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke-width:0.499999"
+                 d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                 inkscape:path-effect="#path-effect94-3-2"
+                 inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                 sodipodi:nodetypes="ccccc" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                 x="-319.96271"
+                 y="8.3974924"
+                 id="text94-3-3"><tspan
+                   sodipodi:role="line"
+                   id="tspan94-7-3"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#111111;fill-opacity:1;stroke-width:0.374084"
+                   x="-319.96271"
+                   y="8.3974924">#999999</tspan></text>
+              <g
+                 id="g96-6"
+                 transform="translate(-1.8429687e-6,1.0517806)">
+                <path
+                   id="rect93-7-5-6"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:#3296ff;fill-opacity:1;stroke-width:0.499999"
+                   d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                   inkscape:path-effect="#path-effect94-3-0-3"
+                   inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                   sodipodi:nodetypes="ccccc"
+                   transform="translate(1.8429687e-6,6.5647685)" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                   x="-319.80084"
+                   y="14.962261"
+                   id="text94-3-1-7"><tspan
+                     sodipodi:role="line"
+                     id="tspan94-7-6-6"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#111111;fill-opacity:1;stroke-width:0.374084"
+                     x="-319.80084"
+                     y="14.962261">#3296FF</tspan></text>
+              </g>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;line-height:1.5;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+                 x="-407.89169"
+                 y="23.886187"
+                 id="text89-0-4-7-6"><tspan
+                   sodipodi:role="line"
+                   id="tspan89-7-1-3-2"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53836px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#999999;fill-opacity:1;stroke-width:0.5"
+                   x="-407.89169"
+                   y="23.886187">Background Color</tspan></text>
+              <g
+                 id="g96-5-4"
+                 transform="translate(1.5197226e-5,8.9183292)"
+                 style="fill:#ffffff;fill-opacity:1">
+                <path
+                   id="rect93-7-5-4-8"
+                   style="font-variation-settings:'opsz' 32, 'wght' 500;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.499999;stroke-opacity:1"
+                   d="m -321.9356,4.3054602 21.7504,-0.055237 a 1.3195612,1.3195612 44.927247 0 1 1.32291,1.319557 v 2.5788225 a 1.3262805,1.3262805 134.92725 0 1 -1.32291,1.3262762 l -21.7504,0.055237 a 1.3195612,1.3195612 44.927247 0 1 -1.32291,-1.319557 V 5.6317364 a 1.3262805,1.3262805 134.92725 0 1 1.32291,-1.3262762 z"
+                   inkscape:path-effect="#path-effect94-3-0-7-5"
+                   inkscape:original-d="m -323.25851,4.3088198 24.39622,-0.061956 v 5.2246557 l -24.39622,0.061956 z"
+                   sodipodi:nodetypes="ccccc"
+                   transform="translate(1.8429687e-6,6.5647685)" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.374083;stroke-dasharray:none;stroke-opacity:1"
+                   x="-317.08563"
+                   y="14.962261"
+                   id="text94-3-1-0-3"><tspan
+                     sodipodi:role="line"
+                     id="tspan94-7-6-0-1"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14362px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.374084;stroke-opacity:1"
+                     x="-317.08563"
+                     y="14.962261">#111111</tspan></text>
+              </g>
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-339.20898"
+             y="46.226749"
+             id="text96-0"><tspan
+               sodipodi:role="line"
+               id="tspan96-7"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke-width:0.444196"
+               x="-339.20898"
+               y="46.226749">Inter Medium</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-332.13757"
+             y="52.289661"
+             id="text96-7-8"><tspan
+               sodipodi:role="line"
+               id="tspan96-8-1"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.92024px;font-family:Inter;-inkscape-font-specification:'Inter, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.444196"
+               x="-332.13757"
+               y="52.289661">Inter Bold</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;line-height:1.5;font-family:Inter;-inkscape-font-specification:'Inter, @opsz=32,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 700;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.444196;stroke-dasharray:none;stroke-opacity:1"
+             x="-356.65134"
+             y="59.925114"
+             id="text96-7-1-6"><tspan
+               sodipodi:role="line"
+               id="tspan96-8-6-4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.92024px;font-family:'Dela Gothic One';-inkscape-font-specification:'Dela Gothic One, @opsz=32,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32, 'wght' 500;fill:#ffffff;fill-opacity:1;stroke-width:0.444196"
+               x="-356.65134"
+               y="59.925114">Dela Gothic One</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

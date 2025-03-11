@@ -1,6 +1,8 @@
-# OpenSong
+<a href="https://lbirkert.com/openchord"><h1>OpenChord</h1></a>
 
-OpenSong is an opensource PWA (progressive web app), which allows importing PDF song sheets and has a builtin patcher for transposing. It is supposed to be a church-specific, lightweight, free and cross platform application.
+OpenChord (acronym: OPENCHRD) is an opensource PWA (progressive web app),
+which allows importing PDF song sheets and has a builtin patcher for transposing.
+It is supposed to be a church-specific, lightweight, free and cross platform application.
 
 ----
 

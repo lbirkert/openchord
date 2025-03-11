@@ -1,6 +1,6 @@
 import type { Setlist, Song } from "./types.js";
 
-class OpenSongState {
+class OpenChordState {
     // current import files
     importFiles: ArrayBuffer[] = $state([]);
     // current import preview
@@ -16,4 +16,4 @@ class OpenSongState {
     library: boolean = $state(false);
 }
 
-export const openSongState = new OpenSongState();
+export const openSongState = new OpenChordState();
