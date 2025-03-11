@@ -11,7 +11,7 @@
 			--color-bg-warn: rgb(221, 57, 42);
 			--border0: 1px solid rgba(200, 200, 200, 0.4);
 			--radius0: 5px;
-			--color-darken: rgba(0, 0, 0, 0.2);
+			--color-darken: rgba(255, 255, 255, 0.7);
 		}
 
 		@media (prefers-color-scheme: dark) {
@@ -26,7 +26,7 @@
 				--color-bg-warn: rgb(200, 30, 20);
 				--border0: 1px solid rgba(100, 100, 100, 0.4);
 				--radius0: 5px;
-				--color-darken: rgba(0, 0, 0, 0.5);
+				--color-darken: rgba(17, 17, 17, 0.7);
 			}
 		}
 
