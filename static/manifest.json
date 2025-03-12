@@ -2,29 +2,29 @@
   "name": "OpenChord",
   "short_name": "OpenChord",
   "description": "OpenChord is a free, open-source PWA for worship teams to manage setlists, import and transpose PDF song sheets, and perform live.",
-  "start_url": "/opensong",
-  "scope": "/opensong",
+  "start_url": "/openchord",
+  "scope": "/openchord",
   "display": "standalone",
   "background_color": "#0064FF",
   "theme_color": "#0064FF",
   "icons": [
     {
-      "src": "/opensong/icons/icon-light-192x192.png",
+      "src": "/openchord/icons/icon-light-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/opensong/icons/icon-dark-192x192.png",
+      "src": "/openchord/icons/icon-dark-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/opensong/icons/icon-light-512x512.png",
+      "src": "/openchord/icons/icon-light-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/opensong/icons/icon-dark-512x512.png",
+      "src": "/openchord/icons/icon-dark-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
