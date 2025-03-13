@@ -8,7 +8,7 @@
 
 <div class="setlist">
 	<div class="icon">
-		<Icon data={faList} scale={1.2} />
+		<Icon data={faList} scale={1.5} />
 	</div>
 	<div class="detail">
 		<h3 class="title">{setlist.title}</h3>
@@ -22,21 +22,21 @@
 	}
 
 	.setlist {
-		padding: 0 20px;
+		padding: 20px;
 		height: 100%;
 		display: flex;
 		flex-direction: row;
 		column-gap: 20px;
+		font-size: 1em;
 		align-items: center;
 	}
 
 	.title {
 		font-weight: 600;
-		font-size: 15px;
-		margin-bottom: 2px;
+		margin-bottom: 3px;
 	}
 
 	.description {
-		font-size: 11px;
+		font-size: 1em;
 	}
 </style>

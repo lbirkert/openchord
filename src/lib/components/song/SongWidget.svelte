@@ -15,7 +15,7 @@
 
 <div class="song">
 	<div class="icon">
-		<Icon data={faMusic} scale={1.2} />
+		<Icon data={faMusic} scale={1.5} />
 	</div>
 	<div class="detail">
 		<h4 class="title">{song.title}</h4>
@@ -33,17 +33,17 @@
 		height: 100%;
 		display: flex;
 		flex-direction: row;
-		column-gap: 15px;
+		column-gap: 20px;
 		align-items: center;
 	}
 
 	.title {
 		font-weight: 600;
-		font-size: 15px;
-		margin-bottom: 2px;
+		font-size: 1em;
+		margin-bottom: 3px;
 	}
 
 	.description {
-		font-size: 11px;
+		font-size: 1em;
 	}
 </style>

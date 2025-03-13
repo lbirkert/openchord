@@ -36,8 +36,9 @@
 
 	header {
 		font-weight: 600;
+		font-size: 1.2rem;
 		width: 100%;
-		height: 40px;
+		height: var(--nav-height);
 		border-bottom: var(--border0);
 		display: flex;
 		align-items: center;
@@ -60,11 +61,12 @@
 		justify-content: space-between;
 		border-top: var(--border0);
 		width: 100%;
-		height: 40px;
+		height: var(--nav-height);
 		padding: 10px 20px;
 	}
 
 	footer :global(button) {
+		font-size: 1rem;
 		background: transparent;
 		border: none;
 		color: var(--color-accent);

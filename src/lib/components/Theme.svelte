@@ -12,6 +12,8 @@
 			--border0: 1px solid rgba(200, 200, 200, 0.4);
 			--radius0: 5px;
 			--color-darken: rgba(255, 255, 255, 0.7);
+			font-size: 16px;
+			--nav-height: 45px;
 		}
 
 		@media (prefers-color-scheme: dark) {
@@ -48,21 +50,37 @@
 
 		p {
 			color: var(--color-text-secondary);
+			font-size: 1em;
+		}
+
+		input {
 		}
 	</style>
 </svelte:head>
 
 <style>
+	:global(button) {
+		font-size: 1em;
+	}
+
+	:global(label) {
+		font-size: 1em;
+		display: flex;
+		flex-direction: column;
+		row-gap: 5px;
+	}
+
 	:global(h1, h2, h3, h4, h5, h6) {
 		color: var(--color-text);
 	}
 
 	:global(input) {
 		border: var(--border0);
-		padding: 5px 10px;
+		padding: 10px 15px;
 		border-radius: var(--radius0);
 		width: 100%;
 		background-color: var(--color-bg);
+		font-size: 1em;
 	}
 
 	:global(input:focus) {
@@ -77,10 +95,6 @@
 	:global(input[type='number']::-webkit-inner-spin-button) {
 		-webkit-appearance: none;
 		margin: 0;
-	}
-
-	:global(label) {
-		font-size: 12px;
 	}
 
 	:global(.row) {

@@ -16,6 +16,6 @@
         justify-content: center;
         row-gap: 10px;
         height: 100%;
-        font-size: 12px;
+        font-size: 1em;
     }
 </style>

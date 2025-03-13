@@ -30,7 +30,7 @@
 	header {
 		z-index: 200;
 		background-color: var(--color-bg);
-		height: 40px;
+		height: var(--nav-height);
 		width: 100vw;
 		display: flex;
 		justify-content: space-between;
@@ -44,7 +44,6 @@
 		background-color: transparent;
 		border-radius: var(--radius0);
 		color: var(--color-accent);
-		font-size: 14px;
 		font-weight: 500;
 		cursor: pointer;
 		padding: 3px 10px;
@@ -59,7 +58,7 @@
 	}
 
 	h1 {
-		font-size: 15px;
+		font-size: min(1.2em, 4vw);
 		font-weight: 100;
 		font-family: 'Dela Gothic One', sans-serif;
 		color: var(--color-accent);

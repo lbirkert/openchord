@@ -49,8 +49,8 @@
 	}
 
 	button {
-		height: 30px;
-		width: 30px;
+		height: 40px;
+		width: 40px;
 		background-color: transparent;
 		border: var(--border0);
 		border-radius: var(--radius0);

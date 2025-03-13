@@ -60,7 +60,7 @@
 		justify-content: center;
 		background-color: rgba(0, 0, 0, 0.5);
 		color: white;
-		font-size: 1.5rem;
+		font-size: 1.5em;
 		z-index: 9999;
 		pointer-events: none; /* Makes it non-interactable */
 		opacity: 0;

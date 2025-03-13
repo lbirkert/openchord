@@ -32,10 +32,10 @@
 <style>
 	.darken {
 		position: absolute;
-		top: 40px;
+		top: 0;
 		left: 0;
 		width: 100vw;
-		height: calc(100dvh - 40px);
+		height: 100dvh;
 		z-index: 50;
 		background-color: var(--color-darken);
 		opacity: 0;
@@ -55,19 +55,26 @@
 
 		border-right: var(--border0);
 		position: absolute;
-		top: 40px;
+		top: var(--nav-height);
 		left: -100%;
 		transition: left 0.3s ease;
 		display: flex;
 		flex-direction: column;
-		height: calc(100dvh - 40px);
-		max-width: 300px;
+		height: calc(100dvh - var(--nav-height));
+		max-width: 350px;
 		width: 100%;
 		background-color: var(--color-bg);
 
 		box-shadow: 12px 12px 18px -6px rgba(0, 0, 0, 0.2);
 		-webkit-box-shadow: 12px 12px 18px -6px rgba(0, 0, 0, 0.2);
 		-moz-box-shadow: 12px 12px 18px -6px rgba(0, 0, 0, 0.2);
+	}
+
+	@media only screen and (max-width: 400px) {
+		.sidebar-left {
+			max-width: 100%;
+			border-right: none;
+		}
 	}
 
 	.sidebar-left.show {

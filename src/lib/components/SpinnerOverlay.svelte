@@ -1,4 +1,5 @@
 <script>
+	import { minus } from 'svelte-awesome/icons';
 	import Spinner from './Spinner.svelte';
 
 	let { hide } = $props();
@@ -24,14 +25,14 @@
 
 		.spinner-overlay h1 {
             color: var(--color-accent);
-			font-size: 48px;
+			font-size: min(4em, 10vw);
 			font-family: 'Dela Gothic One', sans-serif;
 		}
 
 		.spinner-overlay h3 {
 			height: 25px;
             color: var(--color-text);
-			font-size: 14px;
+			font-size: 1em;
 			font-weight: bold;
 			display: flex;
 			gap: 8px;
