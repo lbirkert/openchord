@@ -39,6 +39,12 @@
 		border-bottom: 2px solid var(--color-accent);
 	}
 
+	@media only screen and (max-width: 400px) {
+		header {
+			padding: 10px;
+		}
+	}
+
 	button {
 		border: none;
 		background-color: transparent;
@@ -58,7 +64,7 @@
 	}
 
 	h1 {
-		font-size: min(1.2em, 4vw);
+		font-size: 1.2em;
 		font-weight: 100;
 		font-family: 'Dela Gothic One', sans-serif;
 		color: var(--color-accent);

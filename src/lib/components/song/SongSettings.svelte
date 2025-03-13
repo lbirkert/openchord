@@ -19,7 +19,7 @@
 		Song Settings
 	{/snippet}
 	{#snippet main()}
-		<form>
+		<div class="form">
 			{#if openSongState.song}
 				<label>
 					Edit Key
@@ -32,7 +32,7 @@
 			{:else}
 				Please open a Song first
 			{/if}
-		</form>
+			</div>
 	{/snippet}
 	{#snippet footer()}
 		<button> + Edit metadata </button>

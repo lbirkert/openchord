@@ -33,6 +33,7 @@
 
 	.title {
 		font-weight: 600;
+		font-size: 1.05em;
 		margin-bottom: 3px;
 	}
 

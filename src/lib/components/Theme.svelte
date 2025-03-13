@@ -103,7 +103,7 @@
 		width: 100%;
 	}
 
-	:global(form) {
+	:global(form, .form) {
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
