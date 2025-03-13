@@ -38,7 +38,7 @@
 					openSongState.setlist = setlists[index];
 				}}
 				ondelete={deleteSetlist}
-				itemHeight={80}
+				itemHeight={100}
 			>
 				{#snippet item(i)}
 					<SetlistWidget setlist={setlists[i]} />

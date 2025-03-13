@@ -39,5 +39,12 @@
 
 	.description {
 		font-size: 1em;
+		max-height: 40px;
+		width: 100%;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		text-overflow: ellipsis;
+		hyphens: manual;
+		overflow: hidden;
 	}
 </style>

@@ -88,7 +88,7 @@
 					openSongState.song = deepcopy(songs[i]);
 				}}
 				length={songs.length}
-				itemHeight={80}
+				itemHeight={100}
 			>
 				{#snippet item(i)}
 					<SongWidget song={songs[i].meta} />

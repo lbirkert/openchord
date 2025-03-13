@@ -31,11 +31,13 @@
 	.song {
 		padding: 20px;
 		height: 100%;
-		display: flex;
-		flex-direction: row;
 		column-gap: 20px;
 		align-items: center;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
 	}
+
 
 	.title {
 		font-weight: 600;
@@ -43,7 +45,20 @@
 		margin-bottom: 3px;
 	}
 
+	.detail {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
 	.description {
 		font-size: 1em;
+		max-height: 40px;
+		width: 100%;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		text-overflow: ellipsis;
+		hyphens: manual;
+		overflow: hidden;
 	}
 </style>
