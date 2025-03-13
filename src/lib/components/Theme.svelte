@@ -10,7 +10,7 @@
 			--color-bg-active: rgb(220, 240, 255);
 			--color-bg-warn: rgb(221, 57, 42);
 			--border0: 1px solid rgba(200, 200, 200, 0.4);
-			--radius0: 5px;
+			--radius0: 8px;
 			--color-darken: rgba(255, 255, 255, 0.7);
 			font-size: 16px;
 			--nav-height: 45px;
@@ -27,7 +27,7 @@
 				--color-bg-active: rgba(50, 150, 255, 0.1);
 				--color-bg-warn: rgb(200, 30, 20);
 				--border0: 1px solid rgba(100, 100, 100, 0.4);
-				--radius0: 5px;
+				--radius0: 8px;
 				--color-darken: rgba(17, 17, 17, 0.7);
 			}
 		}
