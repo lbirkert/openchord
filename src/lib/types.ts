@@ -29,7 +29,6 @@ export interface PatchData {
 
 export interface ChordPatchData {
     rect: Rect;
-    prefix: string;
     nashvile: string;
 }
 

@@ -96,7 +96,7 @@ export function convertChord(text: string, key: Key): string | undefined {
     text = text.substring(root.length);
 
     // 2. Step, get inversion
-    const inversion = chordBasesNashvile.flat().find((base) => text.startsWith('/' + base));
+    const inversion = chordBasesNashvile.flat().find((base) => text.endsWith('/' + base));
     let cinversion = '';
     if (inversion) {
         const inversion_idx = getBaseIdx(inversion, chordBasesNashvile);

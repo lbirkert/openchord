@@ -22,7 +22,7 @@
 		await migrate();
 		await document.fonts.ready;
 		show = true;
-		setTimeout(() => showAnimate = true);
+		setTimeout(() => (showAnimate = true));
 	});
 
 	// Make sure to import the worker in the browser
@@ -34,14 +34,14 @@
 <SpinnerOverlay hide={show} />
 
 {#if show}
-<FileDragNDrop onfiles={(files_) => (files = files_)} />
+	<FileDragNDrop onfiles={(files_) => (files = files_)} />
 
-<main class:show={showAnimate}>
-	<Navbar bind:showLeft bind:showRight />
-	<SidebarLeft bind:show={showLeft} />
-	<SidebarRight bind:show={showRight} />
-	<SheetViewer />
-</main>
+	<main class:show={showAnimate}>
+		<Navbar bind:showLeft bind:showRight />
+		<SidebarLeft bind:show={showLeft} />
+		<SidebarRight bind:show={showRight} />
+		<SheetViewer />
+	</main>
 {/if}
 
 <style>

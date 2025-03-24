@@ -1,8 +1,10 @@
+// TODO: refactor back to mupdf
+
 import * as pdfjsLib from 'pdfjs-dist';
 import type { TextItem, TextStyle } from 'pdfjs-dist/types/src/display/api.js';
 import { dumpKey, isNashvile, parseKey } from './chord.js';
 import type { ChordPatchData, Key, PatchData, Rect, SongMeta, Source } from './types.js';
-import type { Font } from 'pdf-lib/cjs/types/fontkit.js';
+import { Font, PDFDocument, PDFPage, type PDFWord, type Quad } from 'mupdf/mupdfjs';
 
 export const wordsKey = [
     'Tonart', 'Key'
@@ -16,65 +18,154 @@ export const wordsTimeSignature = [
     'Time', 'Taktart'
 ];
 
-
-type Line = {
-    text: string;
-    rect: Rect;
+export type PDFLine = {
+    rect: Rect,
+    text: string,
 };
 
-function _extendLine(word: TextItem, line: Line | undefined, style: TextStyle): Line {
-    const minX = word.transform[4],
-        maxX = minX + word.width,
-        minY = word.transform[5] + style.descent * word.height,
-        maxY = minY + word.height,
-        text = word.str.trim();
-    if (line === undefined) {
-        return {
-            text, rect: [minX, minY,
-                maxX, maxY,]
-        };
+// Get the lines
+function _getLines(words: PDFWord[]): PDFLine[] {
+    const EPSILON = 2;
+
+    const sorted = words.toSorted((a, b) => {
+        return a.rect[3] - b.rect[3];
+    });
+
+    const lines: PDFLine[] = [];
+
+    let lineWords: PDFWord[] = [];
+    let lineRect: Rect | undefined;
+    let lastY;
+
+    const enlargeRect = (wordRect: Rect) => {
+        if (lineRect === undefined) {
+            return lineRect = [...wordRect];
+        }
+
+        if (wordRect[0] > wordRect[2] || wordRect[1] > wordRect[3]) {
+            throw Error(wordRect.toString());
+        }
+
+        lineRect[0] = Math.min(lineRect[0], wordRect[0]);
+        lineRect[1] = Math.min(lineRect[1], wordRect[1]);
+        lineRect[2] = Math.max(lineRect[2], wordRect[2]);
+        lineRect[3] = Math.max(lineRect[3], wordRect[3]);
     }
 
-    // enlarge rect
-    line.rect[0] = Math.min(line.rect[0], minX);
-    line.rect[1] = Math.min(line.rect[1], minY);
-    line.rect[2] = Math.max(line.rect[2], maxX);
-    line.rect[3] = Math.max(line.rect[3], maxY);
-
-    if (text !== '' && line.text !== '') {
-        line.text += ' ';
+    for (const word of sorted) {
+        if (lastY !== undefined &&
+            Math.abs(word.rect[3] - lastY) > EPSILON) {
+            lineWords.sort((a, b) => {
+                return a.rect[0] - b.rect[0];
+            });
+            const text = lineWords.map((w) => w.text).join(' ');
+            lines.push({
+                rect: lineRect!,
+                text
+            });
+            lineWords = [];
+            lineRect = undefined;
+        }
+        lineWords.push(word);
+        enlargeRect(word.rect);
+        lastY = word.rect[3];
     }
-    line.text += text;
 
-    return line;
+    return lines;
 }
 
-function _mergeCloseTextItems(textItems: TextItem[]) {
+function _getWords(page: PDFPage) {
+    const words: PDFWord[] = [];
+    let cwordRect: Rect | undefined;
+    let cwordFont: Font | undefined;
+    let cwordSize: number | undefined;
+    let cwordText = '';
+
+    const endWord = () => {
+        // if word is complete, append to list
+        if (
+            cwordRect !== undefined &&
+            cwordFont !== undefined &&
+            cwordSize !== undefined &&
+            cwordText !== ''
+        ) {
+            words.push({
+                rect: cwordRect,
+                text: cwordText,
+                font: cwordFont,
+                size: cwordSize,
+            });
+        }
+
+        // Reset values
+        cwordRect = undefined;
+        cwordFont = undefined;
+        cwordSize = undefined;
+        cwordText = '';
+    };
+
+    const enlargeRect = (quad: Quad) => {
+        if (cwordRect === undefined) {
+            cwordRect = [quad[0], quad[1], quad[6], quad[7]];
+            return;
+        }
+
+        cwordRect[0] = Math.min(cwordRect[0], quad[0]);
+        cwordRect[1] = Math.min(cwordRect[1], quad[1]);
+        cwordRect[2] = Math.max(cwordRect[2], quad[6]);
+        cwordRect[3] = Math.max(cwordRect[3], quad[7]);
+    }
+
+    // extract the words from the page
+    page.toStructuredText("preserve-whitespace,preserve-spans").walk({
+        onChar(c, _origin, font, size, quad) {
+            cwordFont = font;
+            cwordSize = size;
+
+            // split by whitespace
+            if (c == ' ') {
+                endWord();
+            } else {
+                enlargeRect(quad);
+                cwordText += c;
+            }
+        },
+        // split by block
+        endLine: endWord,
+        endTextBlock: endWord,
+    });
+
+    return words;
+}
+
+function _cleanLyrics(line: string): string {
+    // Remove binds
+    return line.replace(/\s*-\s*/gm, '');
+}
+
+function _mergeClose(textItems: PDFWord[]) {
     // return textItems;
     const MAX_Y_DIFF = 10;
-    const MAX_X_DIFF = 5;
+    const MAX_X_DIFF = 1;
     const mergedItems = [];
 
     let lastMaxX: number = 0;
     let lastMinY: number = 0;
     for (const item of textItems) {
-        if(item.str.trim() == '') {
-            mergedItems.push(item);
-            continue;
-        }
-
         console.log(item, lastMinY, lastMaxX);
-        if (Math.abs(item.transform[4] - lastMaxX) < MAX_X_DIFF &&
-            Math.abs(lastMinY - item.transform[5]) < MAX_Y_DIFF) {
+        if (Math.abs(item.rect[0] - lastMaxX) < MAX_X_DIFF &&
+            Math.abs(lastMinY - item.rect[1]) < MAX_Y_DIFF) {
             const merge = mergedItems[mergedItems.length - 1];
-            merge.str += item.str;
-            merge.width += item.width;
-            merge.height = Math.max(item.transform[5] + item.height, merge.transform[5] + merge.height) - merge.transform[5] + 1;
+            merge.text += item.text;
+            merge.rect[0] = Math.min(merge.rect[0], item.rect[0]);
+            merge.rect[1] = Math.min(merge.rect[1], item.rect[1]);
+            merge.rect[2] = Math.max(merge.rect[2], item.rect[2]);
+            merge.rect[3] = Math.max(merge.rect[3], item.rect[3]);
             console.log('MERGE');
         } else mergedItems.push(item);
 
-        lastMaxX = item.transform[4] + item.width;
-        lastMinY = item.transform[5];
+        lastMaxX = item.rect[2];
+        lastMinY = item.rect[1];
     }
 
     //console.log(mergedItems);
@@ -83,57 +174,10 @@ function _mergeCloseTextItems(textItems: TextItem[]) {
 }
 
 
-function _getLines(words: TextItem[], styles: { [key: string]: TextStyle }): Line[] {
-    const EPSILON = 1.0;
-
-    // Sort words
-    const sorted = words.toSorted((a, b) => {
-        const ay = a.transform[5],
-            by = b.transform[5],
-            ax = a.transform[4],
-            bx = b.transform[4];
-
-        return Math.abs(ay - by) < EPSILON ? ax - bx : by - ay;
-    });
-
-    // Group words with similar y-val
-    const lines = [];
-    let line: Line | undefined;
-    let lastY: number | undefined;
-    for (const word of sorted) {
-        const wordY = word.transform[5];
-        if (lastY === undefined) lastY = wordY;
-        if (lastY! - wordY > EPSILON) {
-            lines.push(line!);
-            line = undefined;
-            lastY = wordY;
-        }
-
-        line = _extendLine(word, line, styles[word.fontName]!);
-    }
-
-    return lines;
-}
-
-function _cleanLyrics(line: string): string {
-    // Remove binds
-    return line.replace(/\s*-\s*/gm, '');
-}
-
 // analyze a song sheet
 // TODO: keyhint for analysis
 export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta]> {
-    const dataClone = new ArrayBuffer(data.byteLength);
-    new Uint8Array(dataClone).set(new Uint8Array(data));
-    const pdf = await pdfjsLib.getDocument({ data: dataClone }).promise;
-
-    // patch data
-    // let titlePatch: HeaderPatch = undefined!;
-    // let capoPatch: HeaderPatch = undefined!;
-    // let authorPatch: HeaderPatch = undefined!;
-    // let descriptionPatch: HeaderPatch | undefined;
-    // let detailPatch: HeaderPatch | undefined;
-    // let chordPatches: { [page: number]: ChordPatch[] } = {};
+    const doc = PDFDocument.openDocument(data, 'application/pdf');
 
     let titleLocation: Rect = undefined!;
     let capoLocation: Rect = undefined!;
@@ -149,17 +193,19 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
     let timeSignature: string | undefined;
     let tempo: number | undefined;
 
-    for (let pageN = 1; pageN <= pdf.numPages; pageN++) {
-        const page = await pdf.getPage(pageN);
-        const textContent = await page.getTextContent();
-        let words = textContent.items.map((w) => w as TextItem);
-        words = _mergeCloseTextItems(words);
-        console.log(words);
+    for (let pageIdx = 0; pageIdx < doc.countPages(); pageIdx++) {
+        const page = new PDFPage(doc, pageIdx);
+        const words = _mergeClose(_getWords(page));
+        const lines = _getLines(words);
 
-
-        console.log(words);
-
-        const lines = _getLines(words, textContent.styles);
+        const viewport = page.getBounds();
+        const convrect = (rect: Rect) => {
+            [rect[3], rect[1]] = [
+                viewport[3] - rect[1],
+                viewport[3] - rect[3]
+            ];
+            return rect;
+        };
 
         // extract lyrics
         const lyricLines = lines.slice(4).filter((line) => {
@@ -170,12 +216,13 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
         text += lyricLines.join(' ');
 
         // TODO: make this more pretty
-        if (pageN === 1) {
+        if (pageIdx === 0) {
             // fallback description
             description = lyricLines[0];
 
             // title line is always the 1st
-            titleLocation = lines[0].rect;
+            titleLocation = convrect(lines[0].rect);
+            console.log('TITLOC', titleLocation, viewport);
             title = lines[0].text;
 
             // find detail line
@@ -185,7 +232,7 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
                 const lineWords = line.text.split(' ').reverse();
                 while (true) {
                     if (lineWords.length == 0) {
-                        detailLocation = line.rect;
+                        detailLocation = convrect(line.rect);
                         detailLineIdx = lineIdx;
                         break;
                     }
@@ -219,8 +266,7 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
             }
 
             // place capo patch at top right corner
-            const viewport = page.getViewport();
-            const capoX = viewport.viewBox[2] - 30, capoY = viewport.viewBox[3] - 100;
+            const capoX = viewport[2] - 30, capoY = viewport[3] - 100;
             capoLocation = [capoX, capoY, capoX, capoY];
         }
 
@@ -229,40 +275,26 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
         let lastY = 0;
         for (const word of words) {
             // TODO: epsilon this
-            const wordY = word.transform[5];
+            const wordY = word.rect[1];
             if (wordY < lastY) break;
             chordStart += 1;
             lastY = wordY;
         }
 
         // get chord patches
-        chords[pageN] = [];
+        chords[pageIdx] = [];
         for (let i = chordStart; i < words.length; i++) {
             const word = words[i];
-            const minX = word.transform[4],
-                maxX = minX + word.width,
-                minY = word.transform[5],
-                maxY = minY + word.height;
-            const segs = word.str.trim().split(' ');
-            const nashvile = segs[segs.length - 1];
-            segs[segs.length - 1] = '';
-            const prefix = segs.join(' ');
-
-            // check for invalid prefix
-            if (prefix.match(/^[|:\s]*$/gm) === null) continue;
 
             // check for proper nashvile
-            if (!isNashvile(nashvile)) continue;
+            if (!isNashvile(word.text)) continue;
 
-            chords[pageN].push({
-                rect: [minX, minY, maxX, maxY],
-                nashvile,
-                prefix: segs.join(' '),
+            chords[pageIdx].push({
+                rect: convrect(word.rect),
+                nashvile: word.text,
             });
         }
     }
-
-    await pdf.destroy();
 
     const patch: PatchData = {
         titleLocation,

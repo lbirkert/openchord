@@ -3,6 +3,7 @@ import type { Rect, Song, SongMeta, Source } from './types.js';
 import { capoKeys, convertChord, dumpKey, modKeyIdx, parseKey } from './chord.js';
 import hash from 'object-hash';
 import { db } from './db.js';
+import * as mupdfjs from 'mupdf/mupdfjs';
 
 function _redact(page: PDFPage, rect: Rect) {
     page.drawRectangle({
@@ -63,22 +64,15 @@ export async function patchSheet(source: Source, meta: SongMeta): Promise<ArrayB
 
     for (let pageIdx = 0; pageIdx < pages.length; pageIdx++) {
         const page = pages[pageIdx];
-        const chords = source.patch.chords[pageIdx + 1];
+        const chords = source.patch.chords[pageIdx];
 
         for (const chord of chords) {
             const rect: Rect = [...chord.rect];
-            rect[3] -= 3;
-            rect[1] -= 1;
-            if (chord.prefix !== '') {
-                rect[3] += 1;
-                rect[1] -= 2;
-            }
             _redact(page, rect);
-            if (chord.prefix !== '') rect[1] += 2;
 
-            const converted = convertChord(chord.nashvile, transposeKey);
-            const chordText = chord.prefix + converted;
-            page.drawText(chordText, {
+            const converted = convertChord(chord.nashvile, transposeKey)!;
+            console.log(chord.nashvile, converted);
+            page.drawText(converted, {
                 x: rect[0],
                 y: rect[1],
                 font: helv,

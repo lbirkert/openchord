@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	optimizeDeps: {
-		exclude: ['pdfjs-dist',],
+		exclude: ['pdfjs-dist', 'mupdf'],
 		include: ['pdf-lib', 'pako'],
 		esbuildOptions: {
 			target: 'esnext'
