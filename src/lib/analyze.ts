@@ -2,7 +2,7 @@
 
 import * as pdfjsLib from 'pdfjs-dist';
 import type { TextItem, TextStyle } from 'pdfjs-dist/types/src/display/api.js';
-import { dumpKey, isNashvile, parseKey } from './chord.js';
+import { convertChordToNashvile, dumpKey, isNashvile, isNashvileConvertable, parseKey } from './chord.js';
 import type { ChordPatchData, Key, PatchData, Rect, SongMeta, Source } from './types.js';
 import { Font, PDFDocument, PDFPage, type PDFWord, type Quad } from 'mupdf/mupdfjs';
 
@@ -145,7 +145,7 @@ function _cleanLyrics(line: string): string {
 
 function _mergeClose(textItems: PDFWord[]) {
     // return textItems;
-    const MAX_Y_DIFF = 10;
+    const MAX_Y_DIFF = 0;
     const MAX_X_DIFF = 1;
     const mergedItems = [];
 
@@ -287,6 +287,9 @@ export async function analyzeSheet(data: ArrayBuffer): Promise<[Source, SongMeta
             const word = words[i];
 
             // check for proper nashvile
+            if (isNashvileConvertable(word.text, key)) {
+                word.text = convertChordToNashvile(word.text, key)!;
+            }
             if (!isNashvile(word.text)) continue;
 
             chords[pageIdx].push({

@@ -52,6 +52,8 @@ export const circleOfFiths: { [keyStr: string]: Key } = {
     'Gb': [6, true],
 };
 
+export const chordExtRegex = /^(m|m?(?=.*\d|maj|dim).*)$/;
+
 // capo keys are the non-sharped base notes
 export const capoKeys = chordBases.map((c) => c[1]);
 
@@ -86,6 +88,12 @@ export function getBaseIdx(base: string, bases: string[][]) {
 
 // convert chord in nashvile form to the appropriate key
 export function convertChord(text: string, key: Key): string | undefined {
+    let addParentheses = false;
+    if(text.startsWith('(') && text.endsWith(')')) {
+        text = text.substring(1, text.length - 1);
+        addParentheses = true;
+    }
+    
     // 1. Step, check root
     const root = chordBasesNashvile.flat().find((base) => text.startsWith(base));
     if (!root) {
@@ -105,12 +113,61 @@ export function convertChord(text: string, key: Key): string | undefined {
     }
 
     // TODO: 3. Step => extensions
+    if(text.length > 0 && !chordExtRegex.test(text)) {
+        return undefined;
+    }
+    
+    if(addParentheses) {
+        return '(' + croot + text + cinversion + ')';
+    }
+
+    return croot + text + cinversion;
+}
+
+// convert chord to nashvile
+export function convertChordToNashvile(text: string, key: Key): string | undefined {
+    let addParentheses = false;
+    if(text.startsWith('(') && text.endsWith(')')) {
+        text = text.substring(1, text.length - 1);
+        addParentheses = true;
+    }
+
+    // 1. Step, check root
+    const root = chordBases.flat().find((base) => text.startsWith(base));
+    if (!root) {
+        return undefined;
+    }
+    const root_idx = getBaseIdx(root, chordBases);
+    const croot = chordBasesNashvile[modKeyIdx(root_idx - key[0])][key[1] ? 1 : 0];
+    text = text.substring(root.length);
+
+    // 2. Step, get inversion
+    const inversion = chordBases.flat().find((base) => text.endsWith('/' + base));
+    let cinversion = '';
+    if (inversion) {
+        const inversion_idx = getBaseIdx(inversion, chordBases);
+        text = text.substring(0, text.length - inversion.length - 1);
+        cinversion = '/' + chordBasesNashvile[modKeyIdx(inversion_idx - key[0])][key[1] ? 1 : 0];
+    }
+
+    // TODO: 3. Step => extensions
+    if(text.length > 0 && !chordExtRegex.test(text)) {
+        return undefined;
+    }
+
+    if(addParentheses) {
+        return '(' + croot + text + cinversion + ')';
+    }
 
     return croot + text + cinversion;
 }
 
 export function isNashvile(text: string): boolean {
     return convertChord(text, parseKey('C')!) !== undefined;
+}
+
+export function isNashvileConvertable(text: string, key: Key): boolean {
+    return convertChordToNashvile(text, key) !== undefined;
 }
 
 export function modKeyIdx(keyIdx: number) {
