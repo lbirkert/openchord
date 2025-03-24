@@ -145,7 +145,7 @@ function _cleanLyrics(line: string): string {
 
 function _mergeClose(textItems: PDFWord[]) {
     // return textItems;
-    const MAX_Y_DIFF = 0;
+    const MAX_Y_DIFF = 10;
     const MAX_X_DIFF = 1;
     const mergedItems = [];
 
